@@ -2,13 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../logo.svg"
+import logo from '../logo.svg';
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-      <Container fluid className="container">
-        <Navbar.Brand href="#home">
+    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" sticky="top">
+      <Container fluid>
+        <Navbar.Brand href="#page-top">
           <img
             alt=""
             src={logo}
@@ -20,7 +20,11 @@ function Navigation() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
             <Nav.Link className="page-scroll" href="#about">
               About
             </Nav.Link>
@@ -40,7 +44,7 @@ function Navigation() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link className="page-scroll" href="#contacts">
+            <Nav.Link className="page-scroll" href="#contact">
               Contacts
             </Nav.Link>
           </Nav>

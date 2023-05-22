@@ -62,13 +62,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: orangered;
+  color: red;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: orangered;
+  color: red;
 }
 ul,
 ol {
@@ -112,7 +112,7 @@ hr {
   padding: 10px 10px;
   border-radius: 50%;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
-  color: orangered;
+  color: red;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -168,10 +168,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: orangered;
+  border-color: red;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: orangered;
+  background-color: red;
 }
 .section-title {
   margin-bottom: 70px;
@@ -258,7 +258,7 @@ a:focus,
 }
 .intro h1 {
   font-family: 'Raleway', sans-serif;
-  color: orangered;
+  color: red;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -301,7 +301,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 30%;
-  color: orangered;
+  color: red;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
@@ -382,7 +382,7 @@ header .intro-text {
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   border-radius: 50%;
   color: #fff;
-  color: orangered;
+  color: red;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
@@ -626,7 +626,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: orangered;
+  color: red;
   background: #fff;
 }
 /* Footer Section*/
@@ -639,10 +639,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: orangered;
+  color: red;
 }
 #footer a:hover {
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid red;
 }
 
 @media (max-width: 768px) {
