@@ -1,8 +1,7 @@
 {
   "Header": {
     "title": "We are",
-    "paragraph": "The main business activities include trading of metal and components for power industry, consulting and financial services. SET is a proud supplier of industrial automation and electrical equipment to more than 20 power facilities in 7 countries of the BSEC (Black Sea Economic Cooperation) and Eastern European regions."
-
+    "paragraph": "The main business activities include trading of metal and components. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ab!"
   },
   "About": {
     "paragraph": "These include, 6 nuclear power plants and 3 high-volume hydroelectric power plants. SET provides business consulting services for companies entering and/or looking to strengthen their position on the Eastern European market. SET has a more than a 10 year history of providing marketing and logistical solutions to complex trading and supply chain problems, as well as offering professional legal support to companies at any stage of project development, all to the benefit our business partners and our customers. Our expert team consists of qualified, experienced professionals in managerial, engineering, and judicial fields.",
@@ -21,8 +20,8 @@
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "/img/portfolio/01-large.jpg",
+      "smallImage": "/img/portfolio/01-small.jpg"
     },
     {
       "title": "Project Title",

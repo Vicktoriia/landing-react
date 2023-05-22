@@ -404,6 +404,11 @@ header .intro-text {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
+
+.bg {
+  background: rgb(77, 208, 225, 0.6);
+}
+
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;

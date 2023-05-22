@@ -6,13 +6,20 @@ import logo from '../logo.svg';
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" sticky="top">
+    <Navbar
+      collapseOnSelect
+      expand="md"
+      bg="--bs-primary-bg-subtle"
+      variant="--bs-primary-bg-subtle"
+      sticky="top"
+      className="bg"
+    >
       <Container fluid>
         <Navbar.Brand href="#page-top">
           <img
             alt=""
             src={logo}
-            width="150"
+            width="100"
             height="50"
             className="d-inline-block align-top"
           />{' '}
@@ -21,7 +28,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="mx-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
