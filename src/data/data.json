@@ -1,21 +1,12 @@
 {
   "Header": {
-    "title": "We are",
-    "paragraph": "The main business activities include trading of metal and components. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ab!"
+    "title": "FOR MEN OF RESULT!    CREATED IN UKRAINE.",
+    "paragraph": ""
   },
   "About": {
-    "paragraph": "These include, 6 nuclear power plants and 3 high-volume hydroelectric power plants. SET provides business consulting services for companies entering and/or looking to strengthen their position on the Eastern European market. SET has a more than a 10 year history of providing marketing and logistical solutions to complex trading and supply chain problems, as well as offering professional legal support to companies at any stage of project development, all to the benefit our business partners and our customers. Our expert team consists of qualified, experienced professionals in managerial, engineering, and judicial fields.",
-    "Why": [
-      "physical trading of Metals ",
-      "physical trading of Components",
-      "physical trading of Components"
-    ],
-    "Why2": [
-      "As a part of the business",
-      "physical trading of Components",
-      "As a part of the business",
-      "As a part of the business"
-    ]
+    "paragraph": "Vitrylo - для чоловіків, які втілюють свої бажання у життя. Витончений дизайн і функціональний вектор - ідея vitrylo. Зручність, натуральність, увага до деталей та точність виконання - органіка vitrylo. Vitrylo - це звершення і  перемоги здатних діяти, зробити крок, незважаючи на наслідки!",
+    "Why": "Vitrylo – це усе, що здатне людину надихнути до направленого руху, не дивлячись ні на що і у супереч усьому.",
+    "Why2": "Vitrylo, це і пропелер літака, гребний гвинт, крила вітряка, легкоспад, … - усе, що створює пригоду у житті."
   },
   "Gallery": [
     {
@@ -66,34 +57,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shirt",
+      "name": "Одяг",
+      "text": ""
+    },
+    {
+      "icon": "fa fa-ruler-combined",
+      "name": "Розмірність",
+      "text": ""
+    },
+    {
+      "icon": "fa fa-seedling",
+      "name": "Матеріали",
+      "text": ""
+    },
+    {
+      "icon": "fa fa-recycle",
+      "name": "Догляд",
+      "text": ""
+    },
+    {
+      "icon": "fa fa-fire",
+      "name": "Провокація",
+      "text": ""
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Замовити",
+      "text": ""
     }
   ],
   "Testimonials": [
@@ -151,33 +142,31 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 123453436 Magazine Street, unit #7146 New Orleans, LA, 70115, US ",
-    "phone": "+1 123 456 1234",
-    "email": "avl2556655@gmail.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "order": "Будь ласка, заповніть форму нижче, щоб надіслати нам електронний лист, і ми зв’яжемося з вами якомога швидше.",
+    "phone": "tel:+380505997559",
+    "phone2": "tel:+380987722344",
+    "email": "mailto:the.vitrylo@gmail.com",
+    "whatsapp": "https://wa.me/0505997559",
+    "viber": "viber://chat?number=+380505997559",
+    "telegram": "",
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/the_vitrylo/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
   },
   "Features": [
     {
-      "icon": "fa fa-puzzle-piece",
-      "title": "ATTENTION TO DETAILS",
-      "text": "Ideological considerations, and even the beginning of daily work on forming a position."
+      "icon": "fa fa-angle-up",
+      "title": "символ вектору, як свідомого руху вперед;",
+      "text": ""
     },
     {
-      "icon": "fa fa-clock-o",
-      "title": "PUNCTUALITY",
-      "text": "The task of the organization, especially the framework and the place of personnel training, attracts."
+      "icon": "fa fa-angle-down",
+      "title": "символ бажаності, результату і перемоги.",
+      "text": ""
     },
     {
-      "icon": "fa fa-clipboard",
-      "title": "PLANNING",
-      "text": "Likewise, consultation with a broad asset largely determines."
-    },
-    {
-      "icon": "fa fa-space-shuttle",
-      "title": "MODERN TECHNOLOGY",
-      "text": "The importance of these problems is so obvious that the implementation of planned tasks."
+      "icon": "fa fa-cube",
+      "title": "символ досягнутості і готовності до наступних звершень",
+      "text": ""
     }
   ]
 }

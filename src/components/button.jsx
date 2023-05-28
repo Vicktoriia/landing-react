@@ -17,10 +17,7 @@ function LernButton() {
       </Button>
       <Collapse in={open}>
         <div id="example-collapse-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
+          Vitrylo – це ідея, здатна відштовхнути лише від бажання і рухати вперед, назустріч усім наслідкам! 100% ідей vitrylo – на 100% українські, які реалізовані головою за допомогою рук</div>
       </Collapse>
     </>
   );

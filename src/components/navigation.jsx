@@ -11,7 +11,6 @@ function Navigation() {
       expand="md"
       bg="--bs-primary-bg-subtle"
       variant="--bs-primary-bg-subtle"
-      sticky="top"
       className="bg"
     >
       <Container fluid>
@@ -29,7 +28,7 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
             className="mx-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '110px' }}
             navbarScroll
           >
             <Nav.Link className="page-scroll" href="#about">

@@ -62,13 +62,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: red;
+  color: rgb(77, 208, 225);
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: red;
+  color: rgb(77, 208, 225);
 }
 ul,
 ol {
@@ -112,7 +112,7 @@ hr {
   padding: 10px 10px;
   border-radius: 50%;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
-  color: red;
+  color: rgb(77, 208, 225);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -168,10 +168,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: red;
+  border-color: rgb(77, 208, 225);
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: red;
+  background-color: rgb(77, 208, 225);
 }
 .section-title {
   margin-bottom: 70px;
@@ -246,7 +246,7 @@ a:focus,
       rgba(47, 48, 58, 0.5),
       rgba(47, 48, 58, 0.4)
     ),
-    url(intro-bg.jpg) center center no-repeat;
+    url(about.jpg) center center no-repeat;
   background-color: #ddd0d0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -258,12 +258,12 @@ a:focus,
 }
 .intro h1 {
   font-family: 'Raleway', sans-serif;
-  color: red;
+  color: rgb(77, 208, 225);
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .intro h1 span {
   font-weight: 800;
@@ -278,7 +278,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -301,15 +301,20 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 30%;
-  color: red;
+  color: #000;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.fa-cube{
+  color: red !important;
 }
 /* About Section */
 #about {
   padding: 100px 0;
 }
 #about h3 {
+  display: none;
   font-size: 22px;
   margin: 0 0 20px;
 }
@@ -362,6 +367,7 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #services h2 {
+  display: none;
   color: #fff;
 }
 #services .section-title h2::after {
@@ -382,7 +388,7 @@ header .intro-text {
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   border-radius: 50%;
   color: #fff;
-  color: red;
+  color: rgb(77, 208, 225);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
@@ -406,7 +412,7 @@ header .intro-text {
 }
 
 .bg {
-  background: rgb(77, 208, 225, 0.6);
+  background: rgb(77, 208, 225, 0.6)
 }
 
 .portfolio-item .hover-bg {
@@ -510,7 +516,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 50px 0 60px;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -537,14 +543,14 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
+  margin-top: 25px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
 }
-#contact form {
+/* #contact form {
   padding-top: 20px;
-}
+} */
 #contact .text-danger {
   color: #cc0033;
   text-align: left;
@@ -610,11 +616,37 @@ label {
 #contact .contact-item i.fa {
   margin-right: 10px;
 }
-#contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+.message{
+  display: flex;
   text-align: center;
+}
+
+.message-item{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.message-item i.fa{
+font-size: 40px;
+    padding: 12px 0;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.message-item i.fa:hover {
+  color: rgb(77, 208, 225);
+}
+#contact .social {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  /* padding-top: 50px;
+  margin-top: 50px; */
+  text-align: center;
+}
+#contact .social p{
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
 }
 #contact .social ul li {
   display: inline-block;
@@ -631,8 +663,8 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: red;
-  background: #fff;
+  color: #fff;
+  background: rgb(77, 208, 225);
 }
 /* Footer Section*/
 #footer {
@@ -644,10 +676,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: red;
+  color: rgb(77, 208, 225);
 }
 #footer a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(77, 208, 225);
 }
 
 @media (max-width: 768px) {

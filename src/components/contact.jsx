@@ -1,54 +1,70 @@
-import { useState } from "react";
-import emailjs from "@emailjs/browser";
-import React from "react";
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import React from 'react';
 
 const initialState = {
-  name: "",
-  email: "",
-  message: "",
+  name: '',
+  email: '',
+  message: '',
 };
-export const Contact = (props) => {
+export const Contact = props => {
   const [{ name, email, message }, setState] = useState(initialState);
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     const { name, value } = e.target;
     setState(prevState => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     console.log(name, email, message);
     emailjs
       .sendForm(
-        "service_qfxw02m",
-        "template_0w5vank",
+        'service_qfxw02m',
+        'template_0w5vank',
         e.target,
-        "N6C48f6Ao0HOx8PHA"
+        'N6C48f6Ao0HOx8PHA'
       )
       .then(
-        (result) => {
+        result => {
           console.log(result.text);
           clearState();
         },
-        (error) => {
+        error => {
           console.log(error.text);
         }
-    );
-    e.target.reset()
-  }
+      );
+    e.target.reset();
+  };
   return (
     <div>
       <div id="contact">
         <div className="container">
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
+                <p>Переглянути колекцію</p>
+                <ul>
+                  <li>
+                    <a href={props.data ? props.data.facebook : '/'}>
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : '/'}>
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <h2>Зробити замовлення</h2>
+                <p>{props.data ? props.data.order : 'loading'}</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
@@ -102,52 +118,38 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
+              <h3>Або за телефоном</h3>
             </div>
             <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
+              <a href={props.data ? props.data.phone : 'loading'}>
+                <i className="fa fa-phone"></i>+38 050 5 997 55 9
+              </a>
+              <br />
+              <a href={props.data ? props.data.phone2 : 'loading'}>
+                <i className="fa fa-phone"></i>+38 098 77 22 3 44
+              </a>
             </div>
             <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <a href={props.data ? props.data.email : 'loading'}>
+                <i className="fa fa-envelope"></i>the.vitrylo@gmail.com
+              </a>
+              <ul className="message">
+                <li className="message-item">
+                  <a href={props.data ? props.data.whatsapp : '/'}>
+                    <i className="fa fa-whatsapp fa-message"></i>
+                  </a>
+                </li>
+                <li className="message-item">
+                  <a href={props.data ? props.data.viber : '/'}>
+                    <i className="fa fa-brands fa-viber fa-message"></i>
+                  </a>
+                </li>
+                <li className="message-item">
+                  <a href={props.data ? props.data.telegram : '/'}>
+                    <i className="fa fa-telegram fa-message"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -155,7 +157,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 React Land Page Template. Design by{" "}
+            &copy; 2023 React Land Page Template. Design by{' '}
             <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a>
