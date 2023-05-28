@@ -1,7 +1,7 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    width: 100%;
   }
   #about,
   #services,
@@ -9,11 +9,11 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 100%;
   }
 
   #portfolio {
-    width: 110%;
+    width: 100%;
   }
 }
 
@@ -199,8 +199,7 @@ hr {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #8d8f90;
-  background-image: linear-gradient(to right, #8d8f90 0%, #5c5d64 100%);
+  background-color: transparent;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -217,7 +216,14 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #5c5d64;
+  background-color: rgb(77, 208, 225);
+  border-color: rgb(77, 208, 225);
+}
+
+#example-collapse-text{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
 }
 .btn:active,
 .btn.active {
@@ -238,7 +244,6 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
   width: 100%;
   padding: 0;
   background: linear-gradient(

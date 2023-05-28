@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "FOR MEN OF RESULT!    CREATED IN UKRAINE.",
+    "title": "FOR MEN OF RESULT!    CREATED IN UKRAINE",
     "paragraph": ""
   },
   "About": {
@@ -154,18 +154,18 @@
   },
   "Features": [
     {
-      "icon": "fa fa-angle-up",
-      "title": "символ вектору, як свідомого руху вперед;",
+      "icon": "../logo.svg",
+      "title": " ˄ символ вектору, як свідомого руху вперед;",
       "text": ""
     },
     {
-      "icon": "fa fa-angle-down",
-      "title": "символ бажаності, результату і перемоги.",
+      "icon": "../logo.svg",
+      "title": " ˅ символ бажаності, результату і перемоги.",
       "text": ""
     },
     {
-      "icon": "fa fa-cube",
-      "title": "символ досягнутості і готовності до наступних звершень",
+      "icon": "../logo.svg",
+      "title": "ʹ символ досягнутості і готовності до наступних звершень",
       "text": ""
     }
   ]

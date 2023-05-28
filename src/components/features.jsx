@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import logo from '../logo.svg';
 
-export const Features = (props) => {
+export const Features = props => {
   return (
     <div id="features" className="text-center">
       <div className="container">
@@ -11,13 +12,19 @@ export const Features = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-8 col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
+                  {' '}
+                  <img
+                    alt=""
+                    className={d.icon}
+                    src={logo}
+                    width="100"
+                    height="50"
+                  />{' '}
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>
               ))
-            : "Loading..."}
+            : 'Loading...'}
         </div>
       </div>
     </div>

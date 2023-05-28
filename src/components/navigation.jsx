@@ -13,7 +13,7 @@ function Navigation() {
       variant="--bs-primary-bg-subtle"
       className="bg"
     >
-      <Container fluid>
+      <Container>
         <Navbar.Brand href="#page-top">
           <img
             alt=""

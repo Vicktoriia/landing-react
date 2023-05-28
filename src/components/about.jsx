@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'react-bootstrap/Image';
+import imag from '../intro-bg.jpg'
 
 export const About = (props) => {
   return (
@@ -9,7 +10,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {' '}
             <Image
-              src="img/intro-bg.jpg"
+              src={imag}
               className="img-responsive"
               alt=""
               fluid
