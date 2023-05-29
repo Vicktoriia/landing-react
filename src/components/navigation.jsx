@@ -22,36 +22,46 @@ function Navigation() {
             height="50"
             className="d-inline-block align-top"
           />{' '}
-          Vitrylo
+          <span className="navbar-logo">Vitrylo</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
             className="mx-auto my-2 my-lg-0"
-            style={{ maxHeight: '110px' }}
+            // style={{ maxHeight: '110px' }}
             navbarScroll
           >
             <Nav.Link className="page-scroll" href="#about">
-              About
+              Про нас
             </Nav.Link>
             <Nav.Link className="page-scroll" href="#gellery">
-              Gallery
+              Галерея
             </Nav.Link>
-            <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <NavDropdown
+              className="page-scroll"
+              title="Опції"
+              id="collasible-nav-dropdown"
+            >
+              <NavDropdown.Item className="page-scroll" href="#services">
+                Колекція
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item className="page-scroll" href="#services">
+                Розмірність
+              </NavDropdown.Item>
+              <NavDropdown.Item className="page-scroll" href="#services">
+                Матеріали
+              </NavDropdown.Item>
+              <NavDropdown.Item className="page-scroll" href="#services">
+                Догляд
+              </NavDropdown.Item>
+              <NavDropdown.Item className="page-scroll" href="#services">
+                Провокація
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
             <Nav.Link className="page-scroll" href="#contact">
-              Contacts
+              Замовити
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

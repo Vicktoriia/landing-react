@@ -1,16 +1,13 @@
 import { Image } from "./image";
 import React from "react";
+import '../data/data.json'
 
 export const Gallery = (props) => {
   return (
     <div id="gellery" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>Галерея</h2>
         </div>
         <div className="row">
           <div className="portfolio-items">

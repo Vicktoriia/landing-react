@@ -30,7 +30,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Sen', sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -69,6 +69,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   color: rgb(77, 208, 225);
+  cursor: pointer;
 }
 ul,
 ol {
@@ -99,12 +100,15 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-#menu a.navbar-brand {
-  padding: 0;
+.navbar-logo {
+  font-family: 'Sen', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 #menu a.navbar-brand i.fa {
-  font-size: 50px;
+  font-size: 50px !important;
   transition: all 0.5s;
   color: #fff;
   width: 80px;
@@ -172,6 +176,32 @@ hr {
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: rgb(77, 208, 225);
+}
+.page-scroll{
+  font-family: 'Sen', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 40px;
+  color: #5c5d64;
+  transition: color .15s ease-in-out, border-bottom .15s ease-in-out;
+}
+.page-scroll:hover,
+.page-scroll:focus
+{
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color:#fff !important;
+}
+.dropdown-item{
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus{
+  background-color:rgb(77, 208, 225);
+  color: #fff;
 }
 .section-title {
   margin-bottom: 70px;
@@ -262,7 +292,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Sen', sans-serif;
   color: rgb(77, 208, 225);
   font-size: 82px;
   font-weight: 700;
@@ -364,13 +394,13 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 50px 0;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   color: #fff;
 }
-#services .service-desc {
+/* #services .service-desc {
   margin: 10px 10px 20px;
-}
+} */
 #services h2 {
   display: none;
   color: #fff;
@@ -566,7 +596,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
+  color: rgb(77, 208, 225);
   background: #fff;
 }
 label {
@@ -611,12 +641,20 @@ label {
   color: #777;
 }
 #contact .contact-item {
-  margin: 20px 0;
-}
-#contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   margin-bottom: 10px;
   display: block;
+}
+#contact .contact-item a {
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color .15s ease-in-out;
+}
+#contact .contact-item a:hover,
+#contact .contact-item a:focus
+ {
+  color: rgb(77, 208, 225);
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
@@ -691,4 +729,7 @@ font-size: 40px;
   #about img {
     margin: 50px 0;
   }
+}
+#gellery {
+  padding: 50px 0;
 }

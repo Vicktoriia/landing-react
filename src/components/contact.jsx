@@ -60,7 +60,7 @@ export const Contact = props => {
               </div>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-12">
             <div className="row">
               <div className="section-title">
                 <h2>Зробити замовлення</h2>
@@ -75,7 +75,7 @@ export const Contact = props => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Ім'я"
                         required
                         onChange={handleChange}
                       />
@@ -103,7 +103,7 @@ export const Contact = props => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Повідомлення"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -111,12 +111,12 @@ export const Contact = props => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Надіслати
                 </button>
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="col-12 col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Або за телефоном</h3>
             </div>
@@ -129,27 +129,27 @@ export const Contact = props => {
                 <i className="fa fa-phone"></i>+38 098 77 22 3 44
               </a>
             </div>
+            <ul className="message">
+              <li className="message-item">
+                <a href={props.data ? props.data.whatsapp : '/'}>
+                  <i className="fa fa-whatsapp fa-message"></i>
+                </a>
+              </li>
+              <li className="message-item">
+                <a href={props.data ? props.data.viber : '/'}>
+                  <i className="fa fa-brands fa-viber fa-message"></i>
+                </a>
+              </li>
+              <li className="message-item">
+                <a href={props.data ? props.data.telegram : '/'}>
+                  <i className="fa fa-telegram fa-message"></i>
+                </a>
+              </li>
+            </ul>
             <div className="contact-item">
               <a href={props.data ? props.data.email : 'loading'}>
                 <i className="fa fa-envelope"></i>the.vitrylo@gmail.com
               </a>
-              <ul className="message">
-                <li className="message-item">
-                  <a href={props.data ? props.data.whatsapp : '/'}>
-                    <i className="fa fa-whatsapp fa-message"></i>
-                  </a>
-                </li>
-                <li className="message-item">
-                  <a href={props.data ? props.data.viber : '/'}>
-                    <i className="fa fa-brands fa-viber fa-message"></i>
-                  </a>
-                </li>
-                <li className="message-item">
-                  <a href={props.data ? props.data.telegram : '/'}>
-                    <i className="fa fa-telegram fa-message"></i>
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
