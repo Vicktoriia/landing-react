@@ -59,32 +59,32 @@
     {
       "icon": "fa fa-shirt",
       "name": "Одяг",
-      "text": ""
+      "link": ""
     },
     {
       "icon": "fa fa-ruler-combined",
       "name": "Розмірність",
-      "text": ""
+      "link": ""
     },
     {
       "icon": "fa fa-seedling",
       "name": "Матеріали",
-      "text": ""
+      "link": ""
     },
     {
       "icon": "fa fa-recycle",
       "name": "Догляд",
-      "text": ""
+      "link": ""
     },
     {
       "icon": "fa fa-fire",
       "name": "Провокація",
-      "text": ""
+      "link": ""
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Замовити",
-      "text": ""
+      "link": "#contact"
     }
   ],
 

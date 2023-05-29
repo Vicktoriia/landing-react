@@ -1,36 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import JsonData from "./data/data.json"
+import { Routes, Route } from 'react-router-dom';
+import { lazy } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'App.css';
-import SmoothScroll from 'smooth-scroll';
 import Navigation from 'components/navigation';
-import { Header } from 'components/header';
-import { Features } from 'components/features';
-import { About } from 'components/about';
-import { Services } from 'components/services';
-import { Gallery } from 'components/gallery';
-import { Contact } from 'components/contact';
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
+const Home = lazy(() => import('./page/home'));
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Contact data={landingPageData.Contact} />
+      <Routes>
+        <Route exact path="/" element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<Home />} />
+        </Route>
+      </Routes>
     </div>
   );
 };
