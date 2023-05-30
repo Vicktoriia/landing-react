@@ -737,9 +737,12 @@ font-size: 40px;
   border-bottom: 2px solid rgb(77, 208, 225);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #about img {
     margin: 50px 0;
+  }
+  .intro h1{
+    font-size: 70px;
   }
 }
 #gellery {
