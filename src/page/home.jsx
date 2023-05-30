@@ -5,7 +5,7 @@ import { Header } from '../components/header';
 import { Features } from '../components/features';
 import { About } from '../components/about';
 import { Services } from '../components/services';
-import { Gallery } from '../components/gallery';
+import  Gallery  from '../components/gellery';
 import { Contact } from '../components/contact';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
