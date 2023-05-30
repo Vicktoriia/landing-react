@@ -38,20 +38,67 @@ const Gallery = props => {
               className="mySwiper2"
             >
               <SwiperSlide>
-                <div className="portfolio-items">
-                  {props.data
-                    ? props.data.map(i => (
-                        <div key={i.id} className="col-sm-6 col-md-4 col-lg-4">
-                          <img
-                            className="portfolio-img"
-                            src={i.largeImage}
-                            alt={i.id}
-                            // smallImage={d.smallImage}
-                          />
-                        </div>
-                      ))
-                    : 'Loading...'}
-                </div>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/01.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/02.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/03.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/04.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/05.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/06.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/07.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/08.jpg')}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  alt=""
+                  className="portfolio-img"
+                  src={require('../img/09.jpg')}
+                />
               </SwiperSlide>
             </Swiper>
             {/* <Swiper
