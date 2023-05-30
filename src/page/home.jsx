@@ -24,7 +24,7 @@ const Home = () => {
         <Header data={landingPageData.Header} />
         <About data={landingPageData.About} />
         <Services data={landingPageData.Services} />
-        <Gallery data={landingPageData.Gallery} />
+        <Gallery/>
         <Contact data={landingPageData.Contact} />
       </div>
     </main>

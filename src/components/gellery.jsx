@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/thumbs';
 
-const Gallery = props => {
+const Gallery = () => {
   // const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <div id="gellery" className="text-center">
@@ -35,7 +35,6 @@ const Gallery = props => {
               scrollbar={{ draggable: true }}
               onSwiper={swiper => console.log(swiper)}
               onSlideChange={() => console.log('slide change')}
-              className="mySwiper2"
             >
               <SwiperSlide>
                 <img
