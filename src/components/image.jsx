@@ -1,14 +1,20 @@
 import React from "react";
 
-export const Image = ({ id, largeImage }) => {
+export const Image = ({ title, largeImage, smallImage }) => {
   return (
     <div className="portfolio-item">
       <div className="hover-bg">
         {' '}
-        <a href={largeImage} data-lightbox-gallery="gallery1">
+        <a
+          href={largeImage}
+          title={title}
+          data-toggle="lightbox"
+          data-gallery="example-gallery"
+        >
           <div className="hover-text">
+            <h4>{title}</h4>
           </div>
-          <img src={largeImage} className="img-responsive" alt={id} />{' '}
+          <img src={smallImage} className="img-responsive img-fluid" alt={title} />{' '}
         </a>{' '}
       </div>
     </div>
