@@ -1,31 +1,22 @@
 {
   "files": {
-    "main.css": "/landing-react/static/css/main.299e1c70.css",
-    "main.js": "/landing-react/static/js/main.5d05fc5c.js",
-    "static/css/714.03c9a07b.chunk.css": "/landing-react/static/css/714.03c9a07b.chunk.css",
-    "static/js/714.9b691a61.chunk.js": "/landing-react/static/js/714.9b691a61.chunk.js",
+    "main.css": "/landing-react/static/css/main.089ccd25.css",
+    "main.js": "/landing-react/static/js/main.e85e6f86.js",
+    "static/css/730.ad0fd193.chunk.css": "/landing-react/static/css/730.ad0fd193.chunk.css",
+    "static/js/730.69db2d33.chunk.js": "/landing-react/static/js/730.69db2d33.chunk.js",
     "static/js/733.6cb0be31.chunk.js": "/landing-react/static/js/733.6cb0be31.chunk.js",
     "static/media/about.jpg": "/landing-react/static/media/about.fd126581777b98772e6e.jpg",
-    "static/media/03.jpg": "/landing-react/static/media/03.302e9eeed58efd8a33c6.jpg",
     "static/media/intro-bg.jpg": "/landing-react/static/media/intro-bg.c04a3f24d0fbf261bfb6.jpg",
-    "static/media/04.jpg": "/landing-react/static/media/04.8fdb9d4a3b89c88514df.jpg",
-    "static/media/02.jpg": "/landing-react/static/media/02.6ef51d5f9c09b42c8112.jpg",
-    "static/media/09.jpg": "/landing-react/static/media/09.41c218e1d0d84ced9a3c.jpg",
-    "static/media/05.jpg": "/landing-react/static/media/05.29cbcfc8baf2775b45ca.jpg",
-    "static/media/08.jpg": "/landing-react/static/media/08.d99b7e423ae5860b4ea3.jpg",
-    "static/media/01.jpg": "/landing-react/static/media/01.fa9d7f2c0f09098fa7b0.jpg",
-    "static/media/06.jpg": "/landing-react/static/media/06.48e308363c4250ad59d5.jpg",
-    "static/media/07.jpg": "/landing-react/static/media/07.d1ff39b502b920a5853b.jpg",
     "static/media/logo.svg": "/landing-react/static/media/logo.198ca80745e25067f7c3e9e9dbafafc4.svg",
     "index.html": "/landing-react/index.html",
-    "main.299e1c70.css.map": "/landing-react/static/css/main.299e1c70.css.map",
-    "main.5d05fc5c.js.map": "/landing-react/static/js/main.5d05fc5c.js.map",
-    "714.03c9a07b.chunk.css.map": "/landing-react/static/css/714.03c9a07b.chunk.css.map",
-    "714.9b691a61.chunk.js.map": "/landing-react/static/js/714.9b691a61.chunk.js.map",
+    "main.089ccd25.css.map": "/landing-react/static/css/main.089ccd25.css.map",
+    "main.e85e6f86.js.map": "/landing-react/static/js/main.e85e6f86.js.map",
+    "730.ad0fd193.chunk.css.map": "/landing-react/static/css/730.ad0fd193.chunk.css.map",
+    "730.69db2d33.chunk.js.map": "/landing-react/static/js/730.69db2d33.chunk.js.map",
     "733.6cb0be31.chunk.js.map": "/landing-react/static/js/733.6cb0be31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.299e1c70.css",
-    "static/js/main.5d05fc5c.js"
+    "static/css/main.089ccd25.css",
+    "static/js/main.e85e6f86.js"
   ]
 }
