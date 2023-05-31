@@ -30,24 +30,21 @@ const Gellery = (props) => {
             onSwiper={swiper => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
           >
-            <SwiperSlide>
-              <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
-                  : 'Loading...'}
-                </div>
-            </SwiperSlide>
+            <div className="portfolio-items">
+              {props.data
+                ? props.data.map((d, i) => (
+                    <SwiperSlide>
+                      <div key={`${d.title}-${i}`}>
+                        <Image
+                          title={d.title}
+                          largeImage={d.largeImage}
+                          smallImage={d.smallImage}
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))
+                : 'Loading...'}
+            </div>
             {/* <SwiperSlide>
               <div className="portfolio-item">
                 <div className="hover-bg">
