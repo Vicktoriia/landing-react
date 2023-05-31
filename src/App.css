@@ -352,7 +352,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 #about h3 {
   display: none;
@@ -591,9 +591,8 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
   font-weight: 400;
 }
 /* #contact form {
@@ -604,7 +603,8 @@ header .intro-text {
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 30px 0;
+  margin-right: auto;
+  margin-left: auto;
   background: transparent;
   border: 2px solid #fff;
 }
@@ -617,6 +617,10 @@ label {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   float: left;
+}
+#contact .form{
+  display: flex;
+  flex-direction: column;
 }
 #contact .form-control {
   display: block;
@@ -652,6 +656,11 @@ label {
 }
 .form-control:-ms-input-placeholder {
   color: #777;
+}
+#contact .contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #contact .contact-item {
   color: #fff;
