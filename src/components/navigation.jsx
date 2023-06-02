@@ -54,7 +54,7 @@ function Navigation() {
                 <NavDropdown.Item className="page-scroll" href="#services">
                   Матеріали
                 </NavDropdown.Item>
-                <NavDropdown.Item className="page-scroll" href="#services">
+                <NavDropdown.Item className="page-scroll" href="/care">
                   Догляд
                 </NavDropdown.Item>
                 <NavDropdown.Item className="page-scroll" href="#services">
