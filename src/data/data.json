@@ -59,7 +59,7 @@
     {
       "icon": "fa fa-shirt",
       "name": "Одяг",
-      "link": ""
+      "link": "/collection"
     },
     {
       "icon": "fa fa-ruler-combined",
@@ -74,7 +74,7 @@
     {
       "icon": "fa fa-recycle",
       "name": "Догляд",
-      "link": ""
+      "link": "/care"
     },
     {
       "icon": "fa fa-fire",

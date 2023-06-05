@@ -765,3 +765,40 @@ font-size: 40px;
 {
   height: 100%;
 }
+.btn-back
+{
+  text-transform: uppercase;
+  color: #5c5d64;
+  background-color: #bdb9b9;
+  padding: 5px 50px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+.btn-back:hover,
+.btn-back:focus,
+.btn-back.focus,
+.btn-back:active,
+.btn-back.active {
+  color: #fff;
+  background-color: #bdb9b9;
+  border-color: #bdb9b9;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-text{
+  font-size: 20px;
+}

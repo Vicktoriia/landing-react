@@ -45,7 +45,7 @@ function Navigation() {
                 title="Опції"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item className="page-scroll" href="#services">
+                <NavDropdown.Item className="page-scroll" href="/collection">
                   Колекція
                 </NavDropdown.Item>
                 <NavDropdown.Item className="page-scroll" href="#services">

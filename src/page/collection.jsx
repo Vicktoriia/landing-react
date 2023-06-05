@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Card, Button, Modal } from 'react-bootstrap';
+import { Card, Modal } from 'react-bootstrap';
+import { useLocation, useNavigate } from 'react-router-dom';
+import imagesData from '../data/images.json';
 
-const Collection = props => {
+const Collection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const openModal = image => {
@@ -17,24 +19,30 @@ const Collection = props => {
       closeModal();
     }
   };
+  const location = useLocation();
+  const navigate = useNavigate();
+  const backLink = location.state?.from ?? '/';
+  const handleBackClick = () => navigate(backLink);
 
   return (
     <div className="container">
+      <btn className="btn-back" type="button" onClick={handleBackClick}>
+        <i className="fa fa-arrow-left-long mr-2"></i>
+      </btn>
       <div className="row">
-        {props &&
-          props.map((d, i) => (
+        {imagesData &&
+          imagesData.map((d, i) => (
             <div className="col-md-4" key={`${d.title}-${i}`}>
               <Card>
-                <Card.Img variant="top" src={d.smallImage} alt={d.title} />
+                <Card.Img
+                  variant="top"
+                  src={d.smallImage}
+                  alt={d.title}
+                  onClick={() => openModal(d.largeImage)}
+                />
                 <Card.Body>
                   <Card.Title>{d.title}</Card.Title>
                   <Card.Text>{d.price}</Card.Text>
-                  <Button
-                    variant="primary"
-                    onClick={() => openModal(d.largeImage)}
-                  >
-                    View Large Image
-                  </Button>
                 </Card.Body>
               </Card>
             </div>
@@ -47,14 +55,11 @@ const Collection = props => {
           onHide={closeModal}
           onClick={handleModalClick}
         >
+          <Modal.Header closeButton >
+          </Modal.Header>
           <Modal.Body>
-            <img src={selectedImage} alt="Full Image" className="img-fluid" />
+            <img src={selectedImage} alt="" className="img-fluid" />
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={closeModal}>
-              Close
-            </Button>
-          </Modal.Footer>
         </Modal>
       )}
     </div>

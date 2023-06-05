@@ -3,13 +3,13 @@
         "title": "1",
         "largeImage": "/img/portfolio/1.jpg",
         "smallImage": "/img/portfolio/1_xs.jpg",
-        "price": ""
+        "price": "5000 грн"
     },
     {
         "title": "2",
         "largeImage": "/img/portfolio/2.jpg",
         "smallImage": "/img/portfolio/2_xs.jpg",
-        "price": ""
+        "price": "2000 грн"
     },
     {
         "title": "3",

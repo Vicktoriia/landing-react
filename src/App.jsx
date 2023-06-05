@@ -11,15 +11,17 @@ import Navigation from 'components/navigation';
 
 const Home = lazy(() => import('./page/home'));
 const Care = lazy(() => import('./page/care'));
+const Collection = lazy(() => import('./page/collection'));
 
 const App = () => {
   return (
     <div>
       <Routes>
         <Route exact path="/" element={<Navigation />}>
-          <Route index element={<Home/>} />
-          <Route path="/care" element={<Care/>} />
-          <Route path="*" element={<Home/>} />
+          <Route index element={<Home />} />
+          <Route path="/care" element={<Care />} />
+          <Route path="/collection" element={<Collection />} />
+          <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </div>
