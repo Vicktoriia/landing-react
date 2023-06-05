@@ -67,7 +67,12 @@ export const Contact = props => {
                 <h2>Зробити замовлення</h2>
                 <p>{props.data ? props.data.order : 'loading'}</p>
               </div>
-              <form name="sentMessage" className='form' validate onSubmit={handleSubmit}>
+              <form
+                name="sentMessage"
+                className="form"
+                validate="true"
+                onSubmit={handleSubmit}
+              >
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">

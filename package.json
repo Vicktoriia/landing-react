@@ -47,5 +47,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicktoriia/landing-react.git"
+  },
+  "author": "Viktoriia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicktoriia/landing-react/issues"
+  },
+  "description": ""
 }

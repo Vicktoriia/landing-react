@@ -10,13 +10,13 @@ const Care = () => {
   return (
     <main>
       <Container>
-        <btn
+        <button
           className="btn-back"
           type="button"
           onClick={handleBackClick}
         >
           <i className="fa fa-arrow-left-long mr-2"></i>
-        </btn>
+        </button>
         <h2>5. Догляд - Льон</h2>
         <h4>
           Вироби VITRYLO із льону будуть слугувати вам довго, але слід

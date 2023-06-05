@@ -26,9 +26,9 @@ const Collection = () => {
 
   return (
     <div className="container">
-      <btn className="btn-back" type="button" onClick={handleBackClick}>
+      <button className="btn-back" type="button" onClick={handleBackClick}>
         <i className="fa fa-arrow-left-long mr-2"></i>
-      </btn>
+      </button>
       <div className="row">
         {imagesData &&
           imagesData.map((d, i) => (

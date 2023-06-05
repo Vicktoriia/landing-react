@@ -17,7 +17,7 @@ function Navigation() {
         className="bg"
       >
         <Container>
-          <Navbar.Brand href="#page-top" to="/" end>
+          <Navbar.Brand href="#page-top" to="/" end="true">
             <img
               alt=""
               src={logo}
