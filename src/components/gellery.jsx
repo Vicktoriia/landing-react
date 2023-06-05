@@ -33,8 +33,8 @@ const Gellery = (props) => {
             <div className="portfolio-items">
               {props.data
                 ? props.data.map((d, i) => (
-                    <SwiperSlide>
-                      <div key={`${d.title}-${i}`}>
+                    <SwiperSlide key={`${d.title}-${i}`}>
+                      <div>
                         <Image
                           title={d.title}
                           largeImage={d.largeImage}
