@@ -5,13 +5,16 @@ import imagesData from '../data/images.json';
 
 const Collection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = image => {
     setSelectedImage(image);
+    setModalOpen(true);
   };
 
   const closeModal = () => {
     setSelectedImage(null);
+    setModalOpen(false);
   };
 
   const handleModalClick = e => {
@@ -51,14 +54,15 @@ const Collection = () => {
 
       {selectedImage && (
         <Modal
-          show={!!selectedImage}
+          show={isModalOpen}
           onHide={closeModal}
           onClick={handleModalClick}
         >
-          <Modal.Header closeButton >
+          <Modal.Header closeButton>
+            <Modal.Title>{selectedImage.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={selectedImage} alt="" className="img-fluid" />
+            <img src={selectedImage.largeImage} alt="" className="img-fluid" />
           </Modal.Body>
         </Modal>
       )}

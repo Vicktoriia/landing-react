@@ -4,7 +4,7 @@ import SmoothScroll from 'smooth-scroll';
 import { Header } from '../components/header';
 import { About } from '../components/about';
 import { Services } from '../components/services';
-import  Gellery  from '../components/gellery';
+import Gellery  from '../components/gellery';
 import { Contact } from '../components/contact';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

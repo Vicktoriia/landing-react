@@ -3,8 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../logo.svg';
-import { Outlet } from 'react-router-dom';
-import { Suspense } from 'react';
 
 function Navigation() {
   return (
@@ -17,7 +15,7 @@ function Navigation() {
         className="bg"
       >
         <Container>
-          <Navbar.Brand href="#page-top" to="/" end="true">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src={logo}
@@ -45,7 +43,7 @@ function Navigation() {
                 title="Опції"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item className="page-scroll" href="/collection">
+                <NavDropdown.Item className="page-scroll" href="./collection">
                   Колекція
                 </NavDropdown.Item>
                 <NavDropdown.Item className="page-scroll" href="#services">
@@ -54,7 +52,7 @@ function Navigation() {
                 <NavDropdown.Item className="page-scroll" href="#services">
                   Матеріали
                 </NavDropdown.Item>
-                <NavDropdown.Item className="page-scroll" href="/care">
+                <NavDropdown.Item className="page-scroll" href="./care">
                   Догляд
                 </NavDropdown.Item>
                 <NavDropdown.Item className="page-scroll" href="#services">
@@ -70,9 +68,6 @@ function Navigation() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Suspense fallback={'Loading...'}>
-        <Outlet />
-      </Suspense>
     </div>
   );
 }
