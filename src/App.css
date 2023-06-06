@@ -809,3 +809,7 @@ font-size: 40px;
 .dropdown-item.active, .dropdown-item:active {
     background-color:#5c5d64;
 }
+
+.modal-dialog {
+    max-width: 80vw !important;
+}
