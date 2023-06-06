@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../logo.svg';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Navigation() {
   return (
@@ -15,7 +16,8 @@ function Navigation() {
         className="bg"
       >
         <Container>
-          <Navbar.Brand href="/">
+        <LinkContainer to="/">
+          <Navbar.Brand>
             <img
               alt=""
               src={logo}
@@ -24,7 +26,8 @@ function Navigation() {
               className="d-inline-block align-top"
             />{' '}
             <span className="navbar-logo">Vitrylo</span>
-          </Navbar.Brand>
+            </Navbar.Brand>
+            </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav
@@ -43,18 +46,22 @@ function Navigation() {
                 title="Опції"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item className="page-scroll" href="./collection">
+                <LinkContainer to="/collection">
+                <NavDropdown.Item className="page-scroll">
                   Колекція
-                </NavDropdown.Item>
+                  </NavDropdown.Item>
+                  </LinkContainer>
                 <NavDropdown.Item className="page-scroll" href="#services">
                   Розмірність
                 </NavDropdown.Item>
                 <NavDropdown.Item className="page-scroll" href="#services">
                   Матеріали
                 </NavDropdown.Item>
-                <NavDropdown.Item className="page-scroll" href="./care">
+                <LinkContainer to="/care">
+                <NavDropdown.Item className="page-scroll">
                   Догляд
-                </NavDropdown.Item>
+                  </NavDropdown.Item>
+                  </LinkContainer>
                 <NavDropdown.Item className="page-scroll" href="#services">
                   Провокація
                 </NavDropdown.Item>
