@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/landing-react/static/css/main.e5243f50.css",
-    "main.js": "/landing-react/static/js/main.8a0994e9.js",
-    "static/js/975.741c55a6.chunk.js": "/landing-react/static/js/975.741c55a6.chunk.js",
+    "main.js": "/landing-react/static/js/main.e723add9.js",
+    "static/js/975.056179e5.chunk.js": "/landing-react/static/js/975.056179e5.chunk.js",
     "static/js/501.f37f6994.chunk.js": "/landing-react/static/js/501.f37f6994.chunk.js",
-    "static/js/829.31187adf.chunk.js": "/landing-react/static/js/829.31187adf.chunk.js",
+    "static/js/829.0f5c384f.chunk.js": "/landing-react/static/js/829.0f5c384f.chunk.js",
     "static/js/930.9feaf183.chunk.js": "/landing-react/static/js/930.9feaf183.chunk.js",
     "static/js/961.2f107408.chunk.js": "/landing-react/static/js/961.2f107408.chunk.js",
     "static/media/about.jpg": "/landing-react/static/media/about.fd126581777b98772e6e.jpg",
     "static/media/intro-bg.jpg": "/landing-react/static/media/intro-bg.c04a3f24d0fbf261bfb6.jpg",
-    "static/media/logo.svg": "/landing-react/static/media/logo.f67e67665e98753ce1ae4fefc2302afc.svg",
+    "static/media/logo.svg": "/landing-react/static/media/logo.198ca80745e25067f7c3e9e9dbafafc4.svg",
     "index.html": "/landing-react/index.html",
     "main.e5243f50.css.map": "/landing-react/static/css/main.e5243f50.css.map",
-    "main.8a0994e9.js.map": "/landing-react/static/js/main.8a0994e9.js.map",
-    "975.741c55a6.chunk.js.map": "/landing-react/static/js/975.741c55a6.chunk.js.map",
+    "main.e723add9.js.map": "/landing-react/static/js/main.e723add9.js.map",
+    "975.056179e5.chunk.js.map": "/landing-react/static/js/975.056179e5.chunk.js.map",
     "501.f37f6994.chunk.js.map": "/landing-react/static/js/501.f37f6994.chunk.js.map",
-    "829.31187adf.chunk.js.map": "/landing-react/static/js/829.31187adf.chunk.js.map",
+    "829.0f5c384f.chunk.js.map": "/landing-react/static/js/829.0f5c384f.chunk.js.map",
     "930.9feaf183.chunk.js.map": "/landing-react/static/js/930.9feaf183.chunk.js.map",
     "961.2f107408.chunk.js.map": "/landing-react/static/js/961.2f107408.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5243f50.css",
-    "static/js/main.8a0994e9.js"
+    "static/js/main.e723add9.js"
   ]
 }
