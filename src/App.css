@@ -789,6 +789,9 @@ font-size: 40px;
   background-color: #bdb9b9;
   border-color: #bdb9b9;
 }
+.card {
+  margin-bottom: 20px;
+}
 
 .card-title{
     font-size: 25px;
@@ -801,4 +804,8 @@ font-size: 40px;
 }
 .card-text{
   font-size: 20px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color:#5c5d64;
 }

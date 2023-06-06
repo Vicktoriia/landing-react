@@ -4,16 +4,13 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const Portfolio = (props) => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = image => {
     setSelectedImage(image);
-    setModalOpen(true);
   };
 
   const closeModal = () => {
     setSelectedImage(null);
-    setModalOpen(false);
   };
 
   const handleModalClick = e => {
@@ -53,7 +50,7 @@ const Portfolio = (props) => {
 
       {selectedImage && (
         <Modal
-          show={isModalOpen}
+          show={!!selectedImage}
           onHide={closeModal}
           onClick={handleModalClick}
         >
