@@ -3,14 +3,18 @@ import { Card, Modal } from 'react-bootstrap';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Portfolio = (props) => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(false);
 
-  const openModal = image => {
-    setSelectedImage(image);
+  const openModal = () => {
+    setSelectedImage(true);
   };
 
   const closeModal = () => {
-    setSelectedImage(null);
+    setSelectedImage(false);
+  };
+
+  const handleModalClose = () => {
+    closeModal();
   };
 
   const handleModalClick = e => {
@@ -33,16 +37,24 @@ const Portfolio = (props) => {
           props.data.map((d, i) => (
             <div className="col-md-4" key={`${d.title}-${i}`}>
               <Card>
+                <a
+          href={d.largeImage}
+          title={d.title}
+          data-toggle="modal"
+          onClick={e => {
+            e.preventDefault();
+            openModal();
+          }}>
                 <Card.Img
                   variant="top"
                   src={d.smallImage}
                   alt={d.title}
-                  onClick={() => openModal(d.largeImage)}
                 />
                 <Card.Body>
                   <Card.Title>{d.title}</Card.Title>
                   <Card.Text>{d.price}</Card.Text>
                 </Card.Body>
+                </a>
               </Card>
             </div>
           ))}
@@ -51,7 +63,7 @@ const Portfolio = (props) => {
       {selectedImage && (
         <Modal
           show={!!selectedImage}
-          onHide={closeModal}
+          onHide={handleModalClose}
           onClick={handleModalClick}
         >
           <Modal.Header closeButton>
