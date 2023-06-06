@@ -116,60 +116,60 @@
       "text": ""
     }
   ],
-  
+
 "Portfolio": [
   {
         "title": "1",
-        "largeImage": "/img/portfolio/1.jpg",
-        "smallImage": "/img/portfolio/1_xs.jpg",
+        "largeImage": "./img/portfolio/1.jpg",
+        "smallImage": "./img/portfolio/1_xs.jpg",
         "price": "5000 грн"
     },
     {
         "title": "2",
-        "largeImage": "/img/portfolio/2.jpg",
-        "smallImage": "/img/portfolio/2_xs.jpg",
+        "largeImage": "./img/portfolio/2.jpg",
+        "smallImage": "./img/portfolio/2_xs.jpg",
         "price": "2000 грн"
     },
     {
         "title": "3",
-        "largeImage": "/img/portfolio/3.jpg",
-        "smallImage": "/img/portfolio/3_xs.jpg",
+        "largeImage": "./img/portfolio/3.jpg",
+        "smallImage": "./img/portfolio/3_xs.jpg",
         "price": ""
     },
     {
         "title": "4",
-        "largeImage": "/img/portfolio/4.jpg",
-        "smallImage": "/img/portfolio/4_xs.jpg",
+        "largeImage": "./img/portfolio/4.jpg",
+        "smallImage": "./img/portfolio/4_xs.jpg",
         "price": ""
     },
     {
         "title": "5",
-        "largeImage": "/img/portfolio/5.jpg",
-        "smallImage": "/img/portfolio/5_xs.jpg",
+        "largeImage": "./img/portfolio/5.jpg",
+        "smallImage": "./img/portfolio/5_xs.jpg",
         "price": ""
     },
     {
         "title": "6",
-        "largeImage": "/img/portfolio/6.jpg",
-        "smallImage": "/img/portfolio/6_xs.jpg",
+        "largeImage": "./img/portfolio/6.jpg",
+        "smallImage": "./img/portfolio/6_xs.jpg",
         "price": ""
     },
     {
         "title": "7",
-        "largeImage": "/img/portfolio/7.jpg",
-        "smallImage": "/img/portfolio/7_xs.jpg",
+        "largeImage": "./img/portfolio/7.jpg",
+        "smallImage": "./img/portfolio/7_xs.jpg",
         "price": ""
     },
     {
         "title": "8",
-        "largeImage": "/img/portfolio/8.jpg",
-        "smallImage": "/img/portfolio/8_xs.jpg",
+        "largeImage": "./img/portfolio/8.jpg",
+        "smallImage": "./img/portfolio/8_xs.jpg",
         "price": ""
     },
     {
         "title": "9",
-        "largeImage": "/img/portfolio/9.jpg",
-        "smallImage": "/img/portfolio/9_xs.jpg",
+        "largeImage": "./img/portfolio/9.jpg",
+        "smallImage": "./img/portfolio/9_xs.jpg",
         "price": ""
     }
   ]
