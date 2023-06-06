@@ -21,8 +21,8 @@ export const App = () => {
       <Suspense fallback={'Loading...'}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="care" element={<Care />} />
-          <Route path="collection" element={<Collection />} />
+          <Route path="/care" element={<Care />} />
+          <Route path="/collection" element={<Collection />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

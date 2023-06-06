@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Services = (props) => {
   return (
@@ -14,10 +15,15 @@ export const Services = (props) => {
                   key={`${d.name}-${i}`}
                   className="col-6 col-md-4 service-item"
                 >
-                  {' '}
-                  <a href={d.link}>
+                  {d.name === "Замовити" ? (
+                    <a href={d.link}>
+                      <i className={d.icon}></i>
+                    </a>
+                  ) : (
+                  <NavLink to={d.link}>
                     <i className={d.icon}></i>
-                  </a>
+                  </NavLink>
+                    )}
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                   </div>
