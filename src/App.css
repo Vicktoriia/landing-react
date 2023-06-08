@@ -19,7 +19,7 @@
 
 body,
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -30,7 +30,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: 'Sen', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 h2 {
   text-transform: uppercase;
@@ -101,7 +101,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 .navbar-logo {
-  font-family: 'Sen', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 30px;
@@ -125,7 +125,7 @@ hr {
 }
 
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -178,7 +178,7 @@ hr {
   background-color: #bdb9b9;
 }
 .page-scroll{
-  font-family: 'Sen', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 20px;
   font-weight: 400;
   margin-right: 20px;
@@ -232,7 +232,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
   color: #fff;
   background-color: transparent;
@@ -298,13 +298,13 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: 'Sen', sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #bdb9b9;
   font-size: 82px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .intro h1 span {
   font-weight: 800;
@@ -319,8 +319,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: calc(50px + 12vh);
+  padding-bottom: calc(50px + 12vh);
   text-align: center;
 }
 /* Features Section */
@@ -615,7 +615,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   float: left;
 }
 #contact .form{
@@ -734,7 +734,7 @@ font-size: 40px;
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 0;
 }
 #footer p {
   color: #888;
