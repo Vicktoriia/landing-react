@@ -45,7 +45,7 @@ export const Contact = props => {
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <p>Переглянути колекцію</p>
+                <p>{props.data ? props.data.text : 'loading'}</p>
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
@@ -63,9 +63,9 @@ export const Contact = props => {
           </div>
           <div className="col-md-12">
             <div className="row">
-              <div className="section-title">
-                <h2>Зробити замовлення</h2>
-                <p>{props.data ? props.data.order : 'loading'}</p>
+              <div className="contact-section-title">
+                <h2 className='text-center'>{props.data ? props.data.title : 'loading'}</h2>
+                <p className='text-center'>{props.data ? props.data.order : 'loading'}</p>
               </div>
               <form
                 name="sentMessage"
@@ -81,7 +81,7 @@ export const Contact = props => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Ім'я"
+                        placeholder={props.data ? props.data.namePlaceholder : 'loading'}
                         required
                         onChange={handleChange}
                       />
@@ -95,7 +95,7 @@ export const Contact = props => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder={props.data ? props.data.emailPlaceholder : 'loading'}
                         required
                         onChange={handleChange}
                       />
@@ -109,7 +109,7 @@ export const Contact = props => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Повідомлення"
+                    placeholder={props.data ? props.data.messagePlaceholder : 'loading'}
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -117,14 +117,14 @@ export const Contact = props => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Надіслати
+                  {props.data ? props.data.button : 'loading'}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-12 col-md-12 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Або за телефоном</h3>
+              <h3>{props.data ? props.data.phoneText : 'loading'}</h3>
             </div>
             <div className="contact-item">
               <a href={props.data ? props.data.phone : 'loading'}>

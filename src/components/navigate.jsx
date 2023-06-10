@@ -6,7 +6,7 @@ import logo from '../logo.svg';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useTranslation } from 'react-i18next';
 
-function Navigation() {
+const Navigate = (props) => {
   const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -38,41 +38,41 @@ function Navigation() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto my-2 my-lg-0" navbarScroll>
-                <Nav.Link className="page-scroll" href="#about">Про нас</Nav.Link>
-                <Nav.Link className="page-scroll" href="#gellery">Галерея</Nav.Link>
+                <Nav.Link className="page-scroll" href="#about">{props.data ? props.data.about : 'Loading'}</Nav.Link>
+                <Nav.Link className="page-scroll" href="#gellery">{props.data ? props.data.gallery : 'Loading'}</Nav.Link>
               <NavDropdown
                 className="page-scroll"
-                title="Опції"
+                title={props.data ? props.data.options : 'Loading'}
                 id="collasible-nav-dropdown"
               >
                 <LinkContainer to="/collection">
                   <NavDropdown.Item className="page-scroll">
-                    Колекція
+                    {props.data ? props.data.collection : 'Loading'}
                   </NavDropdown.Item>
                 </LinkContainer>
                 <LinkContainer to="/size">
                 <NavDropdown.Item className="page-scroll">
-                  Розмірність
+                  {props.data ? props.data.sizing : 'Loading'}
                   </NavDropdown.Item>
                 </LinkContainer>
                 <LinkContainer to="/materials">
                 <NavDropdown.Item className="page-scroll">
-                  Матеріали
+                  {props.data ? props.data.materials : 'Loading'}
                   </NavDropdown.Item>
                   </LinkContainer>
                 <LinkContainer to="/care">
                   <NavDropdown.Item className="page-scroll">
-                    Догляд
+                    {props.data ? props.data.care : 'Loading'}
                   </NavDropdown.Item>
                 </LinkContainer>
                 <NavDropdown.Item className="page-scroll" href="#services">
-                  Провокація
+                  {props.data ? props.data.provocation : 'Loading'}
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
               <Nav.Link className="page-scroll" href="#contact">
-                Замовити
+                {props.data ? props.data.order : 'Loading'}
               </Nav.Link>
             </Nav>
             <Nav>
@@ -98,4 +98,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navigate;

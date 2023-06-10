@@ -60,7 +60,7 @@ const Portfolio = (props) => {
           onHide={closeModal}
           onClick={handleModalClick}
         >
-          <Modal.Header closeButton>
+          <Modal.Header style={{ height: '30px' }} closeButton>
             <Modal.Title>{selectedImage.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>

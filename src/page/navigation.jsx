@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import JsonData from '../data/data.json';
 import SmoothScroll from 'smooth-scroll';
-import CareItem from '../components/careItem';
+import Navigate from '../components/navigate';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
-const Care = () => {
+const Navigation = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -17,10 +17,10 @@ const Care = () => {
   return (
     <main>
       <div>
-        <CareItem data={landingPageData.Care} />
+        <Navigate data={landingPageData.Navigation} />
       </div>
     </main>
   );
 };
 
-export default Care;
+export default Navigation;

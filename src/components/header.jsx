@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LernButton from "components/button"
+import data from '../data/data.json';
 
 export const Header = (props) => {
   return (
@@ -16,8 +17,8 @@ export const Header = (props) => {
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <LernButton />{' '}
+                {/* <p>{props.data ? props.data.paragraph : 'Loading'}</p> */}
+                <LernButton data={data} />{' '}
               </Col>
             </Row>
           </Container>

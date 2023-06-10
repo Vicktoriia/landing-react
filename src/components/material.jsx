@@ -16,7 +16,6 @@ const Material = (props) => {
       </div>
     <div className="container">
       <div>
-        <h2>{props.data ? props.data.title : 'Loading'}</h2>
         <p>{props.data ? props.data.description : 'Loading'}</p>
 
         <h4>{props.data ? props.data.qualitiesTitle : 'Loading'}</h4>

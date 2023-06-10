@@ -7,7 +7,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/thumbs';
-import Navigation from 'components/navigation';
+import Navigation from './page/navigation';
 
 
 const Home = lazy(() => import('./page/home'));
