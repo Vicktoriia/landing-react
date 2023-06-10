@@ -294,6 +294,23 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+.intro-material {
+  width: 100%;
+  height:250px;
+  padding: 0;
+  background: linear-gradient(
+      to left bottom,
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(intro-bg-m.jpg) center center no-repeat;
+  background-color: #ddd0d0;
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -814,5 +831,8 @@ font-size: 40px;
     max-width: 100vw;
     @media (min-width: 767px) {
       max-width: 80vw;
+}
+    @media (min-width: 1275px) {
+      max-width: 70vw;
 }
 }
