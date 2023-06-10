@@ -32,7 +32,7 @@ const Portfolio = (props) => {
       <div className="row">
         {props.data &&
           props.data.map((d, i) => (
-            <div className="col-md-4" key={`${d.title}-${i}`}>
+            <div className="col-md-3" key={`${d.title}-${i}`}>
               <Card>
                 <a
                   href={d.largeImage}
