@@ -10,6 +10,8 @@ const Care = () => {
   return (
     <main>
       <Container>
+         <div className="intro-material">
+        <div className="overlay">
         <button
           className="btn-back"
           type="button"
@@ -17,7 +19,9 @@ const Care = () => {
         >
           <i className="fa fa-arrow-left-long mr-2"></i>
         </button>
-        <h2>5. Догляд - Льон</h2>
+          </div>
+          </div>
+        <h2>Догляд - Льон</h2>
         <h4>
           Вироби VITRYLO із льону будуть слугувати вам довго, але слід
           дотримуватись простих правил.
