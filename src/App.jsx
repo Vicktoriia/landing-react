@@ -13,6 +13,8 @@ import Navigation from 'components/navigation';
 const Home = lazy(() => import('./page/home'));
 const Care = lazy(() => import('./page/care'));
 const Collection = lazy(() => import('./page/collection'));
+const Size = lazy(() => import('./page/size'));
+const Materials = lazy(() => import('./page/materials'));
 
 export const App = () => {
   return (
@@ -23,6 +25,8 @@ export const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/care" element={<Care />} />
           <Route path="/collection" element={<Collection />} />
+          <Route path="/size" element={<Size />} />
+          <Route path="/materials" element={<Materials />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

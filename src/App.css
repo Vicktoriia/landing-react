@@ -319,8 +319,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: calc(50px + 12vh);
-  padding-bottom: calc(50px + 12vh);
+  padding-top: calc(55px + 17vh);
+  padding-bottom: calc(55px + 17vh);
   text-align: center;
 }
 /* Features Section */

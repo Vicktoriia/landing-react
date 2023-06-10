@@ -50,12 +50,16 @@ function Navigation() {
                     Колекція
                   </NavDropdown.Item>
                 </LinkContainer>
-                <NavDropdown.Item className="page-scroll" href="#services">
+                <LinkContainer to="/size">
+                <NavDropdown.Item className="page-scroll">
                   Розмірність
-                </NavDropdown.Item>
-                <NavDropdown.Item className="page-scroll" href="#services">
+                  </NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to="/materials">
+                <NavDropdown.Item className="page-scroll">
                   Матеріали
-                </NavDropdown.Item>
+                  </NavDropdown.Item>
+                  </LinkContainer>
                 <LinkContainer to="/care">
                   <NavDropdown.Item className="page-scroll">
                     Догляд
