@@ -9,9 +9,8 @@ const Care = () => {
   const handleBackClick = () => navigate(backLink);
   return (
     <main>
-      <Container>
-         <div className="intro-material">
-        <div className="overlay">
+      <div>
+        <div className="intro intro-care">
         <button
           className="btn-back"
           type="button"
@@ -20,7 +19,7 @@ const Care = () => {
           <i className="fa fa-arrow-left-long mr-2"></i>
         </button>
           </div>
-          </div>
+      <Container>
         <h2>Догляд - Льон</h2>
         <h4>
           Вироби VITRYLO із льону будуть слугувати вам довго, але слід
@@ -49,7 +48,8 @@ const Care = () => {
         </p>
         <h5 className="mt-4">Прасування</h5>
         <p>Хочете – прасуйте</p>
-      </Container>
+        </Container>
+        </div>
     </main>
   );
 };

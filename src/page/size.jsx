@@ -14,9 +14,9 @@ const Size = () => {
         <button className="btn-back" type="button" onClick={handleBackClick}>
           <i className="fa fa-arrow-left-long mr-2"></i>
         </button>
-        <h2>Таблиця розмірів одягу для чоловіків</h2>
+        <h2 className='text-center'>Таблиця розмірів одягу для чоловіків</h2>
         <div className="table-responsive">
-          <table className="table">
+          <table className="table text-center">
             <thead>
               <tr>
                 <th>Розмір</th>

@@ -7,7 +7,7 @@ import LernButton from "components/button"
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div className="intro intro-hero">
         <div className="overlay">
           <Container>
             <Row>

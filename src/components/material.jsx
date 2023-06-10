@@ -8,14 +8,13 @@ const Material = (props) => {
   const handleBackClick = () => navigate(backLink);
 
   return (
-    <div className="container">
-      <div className="intro-material">
-        <div className="overlay">
+    <div>
+     <div className="intro intro-material">
       <button className="btn-back" type="button" onClick={handleBackClick}>
         <i className="fa fa-arrow-left-long mr-2"></i>
       </button>
       </div>
-       </div>
+    <div className="container">
       <div>
         <h2>{props.data ? props.data.title : 'Loading'}</h2>
         <p>{props.data ? props.data.description : 'Loading'}</p>
@@ -36,6 +35,7 @@ const Material = (props) => {
             : 'Loading'}
         </ul>
       </div>
+    </div>
     </div>
   );
 };
