@@ -18,9 +18,9 @@ const Materials = lazy(() => import('./page/materials'));
 
 export const App = () => {
   return (
+    <Suspense fallback={'Loading...'}>
     <div>
       <Navigation />
-      <Suspense fallback={'Loading...'}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/care" element={<Care />} />
@@ -29,7 +29,7 @@ export const App = () => {
           <Route path="/materials" element={<Materials />} />
           <Route path="*" element={<Home />} />
         </Routes>
+            </div>
       </Suspense>
-    </div>
   );
 };

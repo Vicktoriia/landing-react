@@ -1,0 +1,292 @@
+{
+  "Navigation": {
+    "about": "Über uns",
+    "gallery": "Galerie",
+    "options": "Optionen",
+    "collection": "Kollektion",
+    "sizing": "Größen",
+    "materials": "Materialien",
+    "care": "Pflege",
+    "provocation": "Provokation",
+    "order": "Bestellen"
+  },
+
+  "Header": {
+    "title": "FÜR ERFOLGREICHE MÄNNER! IN DER UKRAINE HERGESTELLT"
+  },
+
+  "Button": {
+    "text": "Vitrylo ist eine Idee, die nur durch den Wunsch abgestoßen und vorwärts bewegt werden kann, um allen Konsequenzen entgegenzutreten! 100% der Ideen von Vitrylo sind zu 100% ukrainisch und wurden mit dem Kopf und den Händen umgesetzt."
+  },
+
+  "About": {
+    "title": "Kleidung für Männer",
+    "paragraph": "Vitrylo - für Männer, die ihre Wünsche im Leben verwirklichen. Raffiniertes Design und funktioneller Ansatz - das ist die Idee von Vitrylo. Komfort, Natürlichkeit, Liebe zum Detail und Präzision - das ist die Essenz von Vitrylo. Vitrylo steht für Erfolge und Siege, für die Fähigkeit, zu handeln und einen Schritt zu machen, ungeachtet der Konsequenzen!",
+    "Why": "Vitrylo ist alles, was einen Menschen inspirieren kann, in eine bestimmte Richtung zu gehen, ungeachtet von allem und trotz allem.",
+    "Why2": "Vitrylo ist wie ein Flugzeugpropeller, ein Paddelrad, die Flügel einer Windmühle, ein Fallschirm... - alles, was Abenteuer im Leben schafft."
+  },
+
+  "Gellery": [
+    {
+      "title": "1",
+      "largeImage": "img/02.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "2",
+      "largeImage": "img/02.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "3",
+      "largeImage": "img/03.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "4",
+      "largeImage": "img/04.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "5",
+      "largeImage": "img/05.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "6",
+      "largeImage": "img/06.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "7",
+      "largeImage": "img/07.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "8",
+      "largeImage": "img/08.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "9",
+      "largeImage": "img/09.jpg",
+      "smallImage": "img/01.jpg"
+    }
+  ],
+
+  "Services": [
+    {
+      "icon": "fa fa-shirt",
+      "name": "Kleidung",
+      "link": "/collection"
+    },
+    {
+      "icon": "fa fa-ruler-combined",
+      "name": "Größen",
+      "link": "/size"
+    },
+    {
+      "icon": "fa fa-seedling",
+      "name": "Materialien",
+      "link": "/materials"
+    },
+    {
+      "icon": "fa fa-recycle",
+      "name": "Pflege",
+      "link": "/care"
+    },
+    {
+      "icon": "fa fa-fire",
+      "name": "Provokation",
+      "link": ""
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Bestellen",
+      "link": "#contact"
+    }
+  ],
+
+  "Contact": {
+    "text": "Kollektion anzeigen",
+    "title": "Bestellung aufgeben",
+    "phoneText": "Oder telefonisch",
+    "button": "Senden",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "E-Mail",
+    "messagePlaceholder": "Nachricht",
+    "order": "Bitte füllen Sie das folgende Formular aus, um uns eine E-Mail zu senden, und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
+    "phone": "tel:+380505997559",
+    "phone2": "tel:+380987722344",
+    "email": "mailto:the.vitrylo@gmail.com",
+    "whatsapp": "https://wa.me/0505997559",
+    "viber": "viber://chat?number=+380505997559",
+    "telegram": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100092979963710",
+    "instagram": "https://www.instagram.com/the_vitrylo/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
+  },
+
+  "Features": [
+    {
+      "icon": "../logo.svg",
+      "title": " ˄ Symbol des bewussten Vorwärtsbewegungsvektors;",
+      "text": ""
+    },
+    {
+      "icon": "../logo.svg",
+      "title": " ˅ Symbol von Wunsch, Ergebnis und Erfolg.",
+      "text": ""
+    },
+    {
+      "icon": "../logo.svg",
+      "title": "ʹ Symbol der Erreichbarkeit und Bereitschaft für weitere Leistungen",
+      "text": ""
+    }
+  ],
+
+  "Portfolio": [
+    {
+      "title": "1",
+      "largeImage": "./img/portfolio/1.jpg",
+      "smallImage": "./img/portfolio/1_xs.jpg",
+      "price": "5000 UAH"
+    },
+    {
+      "title": "2",
+      "largeImage": "./img/portfolio/2.jpg",
+      "smallImage": "./img/portfolio/2_xs.jpg",
+      "price": "2000 UAH"
+    },
+    {
+      "title": "3",
+      "largeImage": "./img/portfolio/3.jpg",
+      "smallImage": "./img/portfolio/3_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "4",
+      "largeImage": "./img/portfolio/4.jpg",
+      "smallImage": "./img/portfolio/4_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "5",
+      "largeImage": "./img/portfolio/5.jpg",
+      "smallImage": "./img/portfolio/5_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "6",
+      "largeImage": "./img/portfolio/6.jpg",
+      "smallImage": "./img/portfolio/6_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "7",
+      "largeImage": "./img/portfolio/7.jpg",
+      "smallImage": "./img/portfolio/7_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "8",
+      "largeImage": "./img/portfolio/8.jpg",
+      "smallImage": "./img/portfolio/8_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "9",
+      "largeImage": "./img/portfolio/9.jpg",
+      "smallImage": "./img/portfolio/9_xs.jpg",
+      "price": ""
+    }
+  ],
+
+  "Care": {
+    "title": "Pflege - Leinen",
+    "description": "VITRYLO-Produkte aus Leinen werden Ihnen lange dienen, aber es ist wichtig, einige einfache Pflegehinweise zu beachten.",
+    "sections": [
+      {
+        "title": "Waschen",
+        "content": "Weiße und farbige Kleidungsstücke sollten getrennt gewaschen werden. Die natürliche Faser und Farbstoffe können beim Waschen zur Farbüberlauf neigen. Weiße Kleidungsstücke sollten bei 40 Grad Celsius gewaschen werden, farbige bei 30 Grad Celsius. In beiden Fällen ist nur der sanfte Schleudergang erlaubt. Verwenden Sie Waschmittel ohne Chlor. Die Verwendung von Weichspülern ist erlaubt. Nicht bei hohen Drehzahlen schleudern oder im Trockner trocknen. Das gewaschene Kleidungsstück mit den Händen glätten und ihm seine Form geben. An einem schattigen Ort in aufrechter Position aufhängen oder aufhängen, um es zu trocknen."
+      },
+      {
+        "title": "Fleckentfernung",
+        "content": "Vor dem Waschen sollte der Fleck mit einem Universalwaschmittel oder einem Fleckentferner behandelt werden. Wichtig: Das Seifenmittel/Fleckentferner nicht auf dem Gewebe trocknen lassen. Den Fleck nicht länger als 10 Minuten einwirken lassen. Bei Bedarf mit warmem Wasser abspülen und den Vorgang wiederholen."
+      },
+      {
+        "title": "Bügeln",
+        "content": "Wenn Sie möchten, können Sie bügeln."
+      }
+    ]
+  },
+
+  "Materials": {
+    "qualitiesTitle": "Eigenschaften von Leinen",
+    "advantagesTitle": "Vorteile von Leinenkleidung für Männer",
+    "description": "VITRYLO-Kleidung wird aus hochwertigem Leinen hergestellt, das aus den VAE importiert wird. Leinen ist eine der ältesten natürlichen Fasern und bietet viele Vorteile für die Herstellung von Herrenbekleidung.",
+    "qualities": [
+      "Natürliches Material mit hoher Festigkeit.",
+      "Gute Luftdurchlässigkeit und Feuchtigkeitsaufnahme, daher ideal für Sommerkleidung.",
+      "Hohe Abrieb- und Farbbeständigkeit.",
+      "Weich im Griff und angenehm zu tragen.",
+      "Antibakterielle Eigenschaften, die unangenehmen Geruch verhindern."
+    ],
+    "advantages": [
+      "Leicht und kühl im Sommer.",
+      "Hohe Abriebfestigkeit und Langlebigkeit.",
+      "Natürliche Feuchtigkeitsbeständigkeit, die Feuchtigkeit ableitet und Komfort bei jedem Wetter bietet.",
+      "Sieht stilvoll und elegant aus und eignet sich für verschiedene Anlässe, einschließlich:",
+      "Freizeit - bietet Komfort und Frische während der Erholung.",
+      "Geschäftstreffen - sieht professionell und stilvoll aus.",
+      "Alltagskleidung - praktisch und bequem für den täglichen Gebrauch."
+    ]
+  },
+
+  "Size": {
+    "title": "GRÖßENTABELLE FÜR HERRENBEKLEIDUNG",
+    "columns": [
+      "Größe",
+      "Brust (cm)",
+      "Taille (cm)",
+      "Hüfte (cm)",
+      "Größe (cm)"
+    ],
+    "rows": [
+      {
+        "size": "XS",
+        "chest": "82-86",
+        "waist": "68-72",
+        "hips": "86-90",
+        "height": "164-170"
+      },
+      {
+        "size": "S",
+        "chest": "86-90",
+        "waist": "72-76",
+        "hips": "90-94",
+        "height": "170-176"
+      },
+      {
+        "size": "M",
+        "chest": "90-94",
+        "waist": "76-80",
+        "hips": "94-98",
+        "height": "176-182"
+      },
+      {
+        "size": "L",
+        "chest": "94-98",
+        "waist": "80-84",
+        "hips": "98-102",
+        "height": "182-188"
+      },
+      {
+        "size": "XL",
+        "chest": "98-102",
+        "waist": "84-88",
+        "hips": "102-106",
+        "height": "188-194"
+      }
+    ]
+  }
+}
