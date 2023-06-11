@@ -1,0 +1,276 @@
+{
+  "Navigation": {
+    "about": "About",
+    "gallery": "Gallery",
+    "options": "Options",
+    "collection": "Collection",
+    "sizing": "Sizing",
+    "materials": "Materials",
+    "care": "Care",
+    "provocation": "Provocation",
+    "order": "Order"
+  },
+  "Header": {
+    "title": "FOR MEN OF RESULT! CREATED IN UKRAINE"
+  },
+  "Button": {
+    "text": "Vitrylo is an idea that can push only from desire and move forward, facing all consequences! 100% of vitrylo ideas are 100% Ukrainian, realized by head with the help of hands."
+  },
+  "About": {
+    "title": "Clothing for Men",
+    "paragraph": "Vitrylo is for men who embody their desires in life. Refined design and functional vector are the idea of vitrylo. Convenience, naturalness, attention to detail, and precision in execution are the organics of vitrylo. Vitrylo is achievement and victories capable of acting, taking a step despite the consequences!",
+    "Why": "Vitrylo is everything that can inspire a person to directed movement, regardless of anything and contrary to everything.",
+    "Why2": "Vitrylo is like a propeller of an airplane, a windmill propeller, a light fall... everything that creates adventure in life."
+  },
+  "Gellery": [
+    {
+      "title": "1",
+      "largeImage": "img/02.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "2",
+      "largeImage": "img/02.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "3",
+      "largeImage": "img/03.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "4",
+      "largeImage": "img/04.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "5",
+      "largeImage": "img/05.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "6",
+      "largeImage": "img/06.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "7",
+      "largeImage": "img/07.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "8",
+      "largeImage": "img/08.jpg",
+      "smallImage": "img/01.jpg"
+    },
+    {
+      "title": "9",
+      "largeImage": "img/09.jpg",
+      "smallImage": "img/01.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-shirt",
+      "name": "Clothing",
+      "link": "/collection"
+    },
+    {
+      "icon": "fa fa-ruler-combined",
+      "name": "Size Guide",
+      "link": "/size"
+    },
+    {
+      "icon": "fa fa-seedling",
+      "name": "Materials",
+      "link": "/materials"
+    },
+    {
+      "icon": "fa fa-recycle",
+      "name": "Care",
+      "link": "/care"
+    },
+    {
+      "icon": "fa fa-fire",
+      "name": "Provocation",
+      "link": ""
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Order",
+      "link": "#contact"
+    }
+  ],
+  "Contact": {
+    "text": "View Collection",
+    "title": "Place an Order",
+    "phoneText": "Or by phone",
+    "button": "Send",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "order": "Please fill out the form below to send us an email, and we will get back to you as soon as possible.",
+    "phone": "tel:+380505997559",
+    "phone2": "tel:+380987722344",
+    "email": "mailto:the.vitrylo@gmail.com",
+    "whatsapp": "https://wa.me/0505997559",
+    "viber": "viber://chat?number=+380505997559",
+    "telegram": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100092979963710",
+    "instagram": "https://www.instagram.com/the_vitrylo/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
+  },
+  "Features": [
+    {
+      "icon": "../logo.svg",
+      "title": " ˄ symbol of conscious forward movement;",
+      "text": ""
+    },
+    {
+      "icon": "../logo.svg",
+      "title": " ˅ symbol of desire, achievement, and victory.",
+      "text": ""
+    },
+    {
+      "icon": "../logo.svg",
+      "title": "ʹ symbol of attainability and readiness for further accomplishments",
+      "text": ""
+    }
+  ],
+  "Portfolio": [
+    {
+      "title": "1",
+      "largeImage": "./img/portfolio/1.jpg",
+      "smallImage": "./img/portfolio/1_xs.jpg",
+      "price": "5000 UAH"
+    },
+    {
+      "title": "2",
+      "largeImage": "./img/portfolio/2.jpg",
+      "smallImage": "./img/portfolio/2_xs.jpg",
+      "price": "2000 UAH"
+    },
+    {
+      "title": "3",
+      "largeImage": "./img/portfolio/3.jpg",
+      "smallImage": "./img/portfolio/3_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "4",
+      "largeImage": "./img/portfolio/4.jpg",
+      "smallImage": "./img/portfolio/4_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "5",
+      "largeImage": "./img/portfolio/5.jpg",
+      "smallImage": "./img/portfolio/5_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "6",
+      "largeImage": "./img/portfolio/6.jpg",
+      "smallImage": "./img/portfolio/6_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "7",
+      "largeImage": "./img/portfolio/7.jpg",
+      "smallImage": "./img/portfolio/7_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "8",
+      "largeImage": "./img/portfolio/8.jpg",
+      "smallImage": "./img/portfolio/8_xs.jpg",
+      "price": ""
+    },
+    {
+      "title": "9",
+      "largeImage": "./img/portfolio/9.jpg",
+      "smallImage": "./img/portfolio/9_xs.jpg",
+      "price": ""
+    }
+  ],
+  "Care": {
+    "title": "Care - Linen",
+    "description": "VITRYLO linen products will serve you for a long time, but it is important to follow some simple care instructions.",
+    "sections": [
+      {
+        "title": "Washing",
+        "content": "White and colored items should be washed separately. The fabric and natural dyes may undergo some color exchange during the washing process. White items should be washed at 40 degrees Celsius, while colored items at 30 degrees Celsius. In both cases, only a gentle spin cycle is allowed. Use laundry detergents that do not contain chlorine. Fabric softeners can be used. Avoid high-speed spinning and do not dry in a washing machine. Gently reshape the washed garment by hand. Dry in a vertical position on a clothesline or hanger in a shaded area."
+      },
+      {
+        "title": "Stain Removal",
+        "content": "Before washing, treat the stain with maestro laundry soap or frosch stain remover for pre-treatment. It is important not to allow the soap/stain remover to dry on the fabric. Leave the product for no more than 10 minutes. If necessary, rinse with warm water and repeat the procedure."
+      },
+      {
+        "title": "Ironing",
+        "content": "Iron if desired."
+      }
+    ]
+  },
+
+  "Materials": {
+    "qualitiesTitle": "Qualities of Linen",
+    "advantagesTitle": "Advantages of Linen Clothing for Men",
+    "description": "Vitrylo clothing is made from high-quality linen imported from the UAE. Linen is one of the oldest natural fibers and has many advantages for creating men's clothing.",
+    "qualities": [
+      "Natural material with high strength.",
+      "Breathable and moisture-absorbent, making it excellent for summer clothing.",
+      "High resistance to wear and fading.",
+      "Soft to the touch and comfortable to wear.",
+      "Antibacterial properties that help prevent unpleasant odors."
+    ],
+    "advantages": [
+      "Lightweight and cool in summer.",
+      "High durability and longevity.",
+      "Natural moisture resistance helps wick away moisture and provides comfort in any weather.",
+      "Stylish and elegant, suitable for various occasions, including:",
+      "Leisure - provides comfort and freshness during relaxation.",
+      "Business meetings - looks professional and stylish.",
+      "Everyday wear - practical and comfortable for daily use."
+    ]
+  },
+  "Size": {
+    "title": "MEN'S CLOTHING SIZE CHART",
+    "columns": ["Size", "Chest (cm)", "Waist (cm)", "Hips (cm)", "Height (cm)"],
+    "rows": [
+      {
+        "size": "XS",
+        "chest": "82-86",
+        "waist": "68-72",
+        "hips": "86-90",
+        "height": "164-170"
+      },
+      {
+        "size": "S",
+        "chest": "86-90",
+        "waist": "72-76",
+        "hips": "90-94",
+        "height": "170-176"
+      },
+      {
+        "size": "M",
+        "chest": "90-94",
+        "waist": "76-80",
+        "hips": "94-98",
+        "height": "176-182"
+      },
+      {
+        "size": "L",
+        "chest": "94-98",
+        "waist": "80-84",
+        "hips": "98-102",
+        "height": "182-188"
+      },
+      {
+        "size": "XL",
+        "chest": "98-102",
+        "waist": "84-88",
+        "hips": "102-106",
+        "height": "188-194"
+      }
+    ]
+  }
+}
