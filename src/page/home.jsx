@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import JsonData from '../data/data.json';
+import React from 'react';
 import SmoothScroll from 'smooth-scroll';
-import { Header } from '../components/header';
-import { About } from '../components/about';
-import { Services } from '../components/services';
-import Gellery  from '../components/gellery';
-import { Contact } from '../components/contact';
+import Header from '../components/header';
+import About from '../components/about';
+import Services from '../components/services';
+import Gallery from '../components/gellery';
+import Contact from '../components/contact';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -13,19 +12,14 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const Home = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
     <main>
       <div>
-        <Header data={landingPageData.Header} />
-        <About data={landingPageData.About} />
-        <Services data={landingPageData.Services} />
-        <Gellery data={landingPageData.Gellery} />
-        <Contact data={landingPageData.Contact} />
+        <Header />
+        <About />
+        <Services />
+        <Gallery />
+        <Contact />
       </div>
     </main>
   );

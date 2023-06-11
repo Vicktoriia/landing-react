@@ -2,6 +2,12 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import SmoothScroll from 'smooth-scroll';
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
 
 const Care = () => {
    const { t } = useTranslation();

@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LernButton from "components/button"
-import data from '../data/data.json';
+import { useTranslation } from 'react-i18next';
 
-export const Header = (props) => {
+const Header = () => {
+  const { t } = useTranslation();
   return (
     <header id="header">
       <div className="intro intro-hero">
@@ -14,11 +15,11 @@ export const Header = (props) => {
             <Row>
               <Col className="g-col col-md-offset-2 intro-text">
                 <h1>
-                  {props.data ? props.data.title : 'Loading'}
+                  {t('Header.title')}
                   <span></span>
                 </h1>
                 {/* <p>{props.data ? props.data.paragraph : 'Loading'}</p> */}
-                <LernButton data={data} />{' '}
+                <LernButton/>
               </Col>
             </Row>
           </Container>
@@ -27,3 +28,5 @@ export const Header = (props) => {
     </header>
   );
 };
+
+export default Header;

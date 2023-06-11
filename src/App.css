@@ -330,6 +330,14 @@ a:focus,
     url(intro-bg-s.jpg) center center no-repeat;
   margin-bottom:20px;
 }
+.intro-portfolio {
+ width: 100%;
+  padding: 0;
+  background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  margin-bottom:20px;
+}
 
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -829,8 +837,8 @@ font-size: 40px;
 }
 
 .card-title{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
 }
 .card-body {
     display: flex;
@@ -839,7 +847,7 @@ font-size: 40px;
     padding:0;
 }
 .card-text{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .dropdown-item.active, .dropdown-item:active {

@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
-export const Services = (props) => {
+const Services = () => {
+  const { t } = useTranslation();
   return (
     <div id="services" className="text-center">
       <div className="container">
@@ -9,8 +11,7 @@ export const Services = (props) => {
           <h2>Our Services</h2>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
+          {t('Services', { returnObjects: true }).map((d, i) => (
                 <div
                   key={`${d.name}-${i}`}
                   className="col-6 col-md-4 service-item"
@@ -28,10 +29,11 @@ export const Services = (props) => {
                     <h3>{d.name}</h3>
                   </div>
                 </div>
-              ))
-            : 'loading'}
+              ))}
         </div>
       </div>
     </div>
   );
 };
+
+export default Services;

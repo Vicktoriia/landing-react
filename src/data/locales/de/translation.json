@@ -1,8 +1,7 @@
 {
   "Navigation": {
     "about": "Über uns",
-    "gallery": "Galerie",
-    "options": "Optionen",
+    "options": "Andere",
     "collection": "Kollektion",
     "sizing": "Größen",
     "materials": "Materialien",
@@ -26,58 +25,58 @@
     "Why2": "Vitrylo ist wie ein Flugzeugpropeller, ein Paddelrad, die Flügel einer Windmühle, ein Fallschirm... - alles, was Abenteuer im Leben schafft."
   },
 
-  "Gellery": [
+  "Gallery": [
     {
       "title": "1",
-      "largeImage": "img/02.jpg",
+      "largeImage": "img/01.jpg",
       "smallImage": "img/01.jpg"
     },
     {
       "title": "2",
       "largeImage": "img/02.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/02.jpg"
     },
     {
       "title": "3",
       "largeImage": "img/03.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/03.jpg"
     },
     {
       "title": "4",
       "largeImage": "img/04.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/04.jpg"
     },
     {
       "title": "5",
       "largeImage": "img/05.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/05.jpg"
     },
     {
       "title": "6",
       "largeImage": "img/06.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/06.jpg"
     },
     {
       "title": "7",
       "largeImage": "img/07.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/07.jpg"
     },
     {
       "title": "8",
       "largeImage": "img/08.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/08.jpg"
     },
     {
       "title": "9",
       "largeImage": "img/09.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/09.jpg"
     }
   ],
 
   "Services": [
     {
       "icon": "fa fa-shirt",
-      "name": "Kleidung",
+      "name": "Kollektion",
       "link": "/collection"
     },
     {
@@ -146,7 +145,7 @@
 
   "Portfolio": [
     {
-      "title": "1",
+      "title": "Hose",
       "largeImage": "./img/portfolio/1.jpg",
       "smallImage": "./img/portfolio/1_xs.jpg",
       "price": "5000 UAH"

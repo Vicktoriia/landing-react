@@ -1,26 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import JsonData from '../data/data.json';
+import React from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SmoothScroll from 'smooth-scroll';
-import Material from '../components/material';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
-const Materials = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+const Material = () => {
+  const { t } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const backLink = location.state?.from ?? '/';
+  const handleBackClick = () => navigate(backLink);
 
   return (
-    <main>
-      <div>
-        <Material data={landingPageData.Materials} />
+    <div>
+     <div className="intro intro-material">
+      <button className="btn-back" type="button" onClick={handleBackClick}>
+        <i className="fa fa-arrow-left-long mr-2"></i>
+      </button>
       </div>
-    </main>
+    <div className="container">
+      <div>
+        <p>{t('Materials.description')}</p>
+
+        <h4>{t('Materials.qualitiesTitle')}</h4>
+        <ul>
+          {t('Materials.qualities', { returnObjects: true }).map((q, i) => ( <li key={`${q}-${i}`}>{q}</li>))}
+        </ul>
+
+        <h4>{t('Materials.advantagesTitle')}</h4>
+        <ul>
+          {t('Materials.advantages', { returnObjects: true }).map((a, i) => ( <li key={`${a}-${i}`}>{a}</li>))}
+        </ul>
+      </div>
+    </div>
+    </div>
   );
 };
 
-export default Materials;
+export default Material;

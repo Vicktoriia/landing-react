@@ -24,10 +24,8 @@ export const Image = ({ title, largeImage, smallImage }) => {
   return (
     <div className="portfolio-item">
       <div className="hover-bg">
-        {' '}
         <a
           href={largeImage}
-          title={title}
           data-toggle="modal"
           data-gallery="gallery"
           onClick={e => {
@@ -42,8 +40,8 @@ export const Image = ({ title, largeImage, smallImage }) => {
             src={smallImage}
             className="img-responsive img-fluid"
             alt={title}
-          />{' '}
-        </a>{' '}
+          />
+        </a>
       </div>
       {showModal && (
         <Modal

@@ -1,8 +1,7 @@
 {
   "Navigation": {
     "about": "Про нас",
-    "gallery": "Галерея",
-    "options": "Опції",
+    "options": "Інше",
     "collection": "Колекція",
     "sizing": "Розмірність",
     "materials": "Матеріали",
@@ -22,57 +21,57 @@
     "Why": "Vitrylo – це усе, що здатне людину надихнути до направленого руху, не дивлячись ні на що і у супереч усьому.",
     "Why2": "Vitrylo, це і пропелер літака, гребний гвинт, крила вітряка, легкоспад, … - усе, що створює пригоду у житті."
   },
-  "Gellery": [
+  "Gallery": [
     {
       "title": "1",
-      "largeImage": "img/02.jpg",
+      "largeImage": "img/01.jpg",
       "smallImage": "img/01.jpg"
     },
     {
       "title": "2",
       "largeImage": "img/02.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/02.jpg"
     },
     {
       "title": "3",
       "largeImage": "img/03.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/03.jpg"
     },
     {
       "title": "4",
       "largeImage": "img/04.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/04.jpg"
     },
     {
       "title": "5",
       "largeImage": "img/05.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/05.jpg"
     },
     {
       "title": "6",
       "largeImage": "img/06.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/06.jpg"
     },
     {
       "title": "7",
       "largeImage": "img/07.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/07.jpg"
     },
     {
       "title": "8",
       "largeImage": "img/08.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/08.jpg"
     },
     {
       "title": "9",
       "largeImage": "img/09.jpg",
-      "smallImage": "img/01.jpg"
+      "smallImage": "img/09.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-shirt",
-      "name": "Одяг",
+      "name": "Колекція",
       "link": "/collection"
     },
     {
@@ -140,7 +139,7 @@
 
   "Portfolio": [
     {
-      "title": "1",
+      "title": "Штани",
       "largeImage": "./img/portfolio/1.jpg",
       "smallImage": "./img/portfolio/1_xs.jpg",
       "price": "5000 грн"

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
+import { useTranslation } from 'react-i18next';
 
-function LernButton(props) {
+function LernButton() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
   return (
@@ -11,13 +13,13 @@ function LernButton(props) {
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
-        className="btn btn-custom btn-lg"
+        className="btn-custom btn btn-lg"
       >
         Learn More
       </Button>
       <Collapse in={open}>
         <div id="example-collapse-text">
-          {props.data && props.data.Button ? props.data.Button.text : 'loading'}</div>
+          {t('Button.text')}</div>
       </Collapse>
     </>
   );

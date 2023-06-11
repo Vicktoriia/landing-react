@@ -6,9 +6,15 @@ import logo from '../logo.svg';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useTranslation } from 'react-i18next';
 
-
 const Navigation = () => {
-  const {i18n, t } = useTranslation();
+  const { i18n, t } = useTranslation();
+
+  const handleContactClick = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
@@ -42,19 +48,16 @@ const Navigation = () => {
               <Nav.Link className="page-scroll" href="#about">
                 {t('Navigation.about')}
               </Nav.Link>
-              <Nav.Link className="page-scroll" href="#gellery">
-                {t('Navigation.gallery')}
-              </Nav.Link>
+              <LinkContainer to="/collection">
+                <Nav.Link className="page-scroll">
+                  {t('Navigation.collection')}
+                </Nav.Link>
+              </LinkContainer>
               <NavDropdown
                 className="page-scroll"
                 title={t('Navigation.options')}
                 id="collasible-nav-dropdown"
               >
-                <LinkContainer to="/collection">
-                  <NavDropdown.Item className="page-scroll">
-                    {t('Navigation.collection')}
-                  </NavDropdown.Item>
-                </LinkContainer>
                 <LinkContainer to="/size">
                   <NavDropdown.Item className="page-scroll">
                     {t('Navigation.sizing')}
@@ -76,9 +79,8 @@ const Navigation = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link className="page-scroll" href="#contact">
-                {t('Navigation.order')}
-              </Nav.Link>
+               <Nav.Link onClick={handleContactClick} className="page-scroll">{t('Navigation.order')}
+                </Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown

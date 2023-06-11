@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-
+import { useTranslation } from 'react-i18next';
 import React from 'react';
 
 const initialState = {
@@ -8,7 +8,8 @@ const initialState = {
   email: '',
   message: '',
 };
-export const Contact = props => {
+ const Contact = () => {
+  const { t } = useTranslation();
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = e => {
@@ -45,15 +46,15 @@ export const Contact = props => {
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <p>{props.data ? props.data.text : 'loading'}</p>
+                <p>{t('Contact.text')}</p>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a href={t('Contact.facebook')}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.instagram : '/'}>
+                    <a href={t('Contact.instagram')}>
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
@@ -64,8 +65,8 @@ export const Contact = props => {
           <div className="col-md-12">
             <div className="row">
               <div className="contact-section-title">
-                <h2 className='text-center'>{props.data ? props.data.title : 'loading'}</h2>
-                <p className='text-center'>{props.data ? props.data.order : 'loading'}</p>
+                <h2 className='text-center'>{t('Contact.title')}</h2>
+                <p className='text-center'>{t('Contact.order')}</p>
               </div>
               <form
                 name="sentMessage"
@@ -81,7 +82,7 @@ export const Contact = props => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder={props.data ? props.data.namePlaceholder : 'loading'}
+                        placeholder={t('Contact.namePlaceholder')}
                         required
                         onChange={handleChange}
                       />
@@ -95,7 +96,7 @@ export const Contact = props => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder={props.data ? props.data.emailPlaceholder : 'loading'}
+                        placeholder={t('Contact.emailPlaceholder')}
                         required
                         onChange={handleChange}
                       />
@@ -109,7 +110,7 @@ export const Contact = props => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder={props.data ? props.data.messagePlaceholder : 'loading'}
+                    placeholder={t('Contact.messagePlaceholder')}
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -117,43 +118,43 @@ export const Contact = props => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  {props.data ? props.data.button : 'loading'}
+                  {t('Contact.button')}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-12 col-md-12 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>{props.data ? props.data.phoneText : 'loading'}</h3>
+              <h3>{t('Contact.phoneText')}</h3>
             </div>
             <div className="contact-item">
-              <a href={props.data ? props.data.phone : 'loading'}>
+              <a href={t('Contact.phone')}>
                 <i className="fa fa-phone"></i>+38 050 5 997 55 9
               </a>
               <br />
-              <a href={props.data ? props.data.phone2 : 'loading'}>
+              <a href={t('Contact.phone2')}>
                 <i className="fa fa-phone"></i>+38 098 77 22 3 44
               </a>
             </div>
             <ul className="message">
               <li className="message-item">
-                <a href={props.data ? props.data.whatsapp : '/'}>
+                <a href={t('Contact.whatsapp')}>
                   <i className="fa fa-whatsapp fa-message"></i>
                 </a>
               </li>
               <li className="message-item">
-                <a href={props.data ? props.data.viber : '/'}>
+                <a href={t('Contact.viber')}>
                   <i className="fa fa-brands fa-viber fa-message"></i>
                 </a>
               </li>
               <li className="message-item">
-                <a href={props.data ? props.data.telegram : '/'}>
+                <a href={t('Contact.telegram')}>
                   <i className="fa fa-telegram fa-message"></i>
                 </a>
               </li>
             </ul>
             <div className="contact-item">
-              <a href={props.data ? props.data.email : 'loading'}>
+              <a href={t('Contact.email')}>
                 <i className="fa fa-envelope"></i>the.vitrylo@gmail.com
               </a>
             </div>
@@ -173,3 +174,5 @@ export const Contact = props => {
     </div>
   );
 };
+
+export default Contact;
