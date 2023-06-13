@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-react/static/css/main.1ec4522e.css",
-    "main.js": "/landing-react/static/js/main.3d29e196.js",
+    "main.js": "/landing-react/static/js/main.b9deae2f.js",
     "static/js/575.2327a01d.chunk.js": "/landing-react/static/js/575.2327a01d.chunk.js",
     "static/js/501.fdd119a4.chunk.js": "/landing-react/static/js/501.fdd119a4.chunk.js",
     "static/js/545.cfe6a098.chunk.js": "/landing-react/static/js/545.cfe6a098.chunk.js",
@@ -19,7 +19,7 @@
     "index.html": "/landing-react/index.html",
     "static/media/getFetch.cjs": "/landing-react/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.1ec4522e.css.map": "/landing-react/static/css/main.1ec4522e.css.map",
-    "main.3d29e196.js.map": "/landing-react/static/js/main.3d29e196.js.map",
+    "main.b9deae2f.js.map": "/landing-react/static/js/main.b9deae2f.js.map",
     "575.2327a01d.chunk.js.map": "/landing-react/static/js/575.2327a01d.chunk.js.map",
     "501.fdd119a4.chunk.js.map": "/landing-react/static/js/501.fdd119a4.chunk.js.map",
     "545.cfe6a098.chunk.js.map": "/landing-react/static/js/545.cfe6a098.chunk.js.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.1ec4522e.css",
-    "static/js/main.3d29e196.js"
+    "static/js/main.b9deae2f.js"
   ]
 }
