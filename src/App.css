@@ -609,7 +609,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 50px 0 60px;
+  padding: 20px 0 30px;
   background: linear-gradient(to right, #5c5d64 0%, #8d8f90 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -622,6 +622,7 @@ header .intro-text {
 #contact h2 {
   color: #fff;
   margin: 0;
+  font-size: 26px;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -634,7 +635,7 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 35px;
+  margin-top: 15px;
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -745,7 +746,7 @@ font-size: 40px;
   color: #bdb9b9;
 }
 #contact .social {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   /* padding-top: 50px;
   margin-top: 50px; */
@@ -753,8 +754,8 @@ font-size: 40px;
 }
 #contact .social p{
   color: #fff;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 20px;
 }
 #contact .social ul li {
   display: inline-block;

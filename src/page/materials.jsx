@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SmoothScroll from 'smooth-scroll';
+import Contact from 'components/contact';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -16,6 +17,7 @@ const Material = () => {
   const handleBackClick = () => navigate(backLink);
 
   return (
+    <main>
     <div>
      <div className="intro intro-material">
       <button className="btn-back" type="button" onClick={handleBackClick}>
@@ -36,8 +38,10 @@ const Material = () => {
           {t('Materials.advantages', { returnObjects: true }).map((a, i) => ( <li key={`${a}-${i}`}>{a}</li>))}
         </ul>
       </div>
+        </div>
+        <Contact/>
     </div>
-    </div>
+    </main>
   );
 };
 

@@ -3,6 +3,7 @@ import { Card, Modal } from 'react-bootstrap';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SmoothScroll from 'smooth-scroll';
+import Contact from 'components/contact';
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -84,6 +85,7 @@ const Collection = () => {
             </Modal>
           )}
         </div>
+        <Contact/>
       </div>
     </main>
   );

@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import SmoothScroll from 'smooth-scroll';
+import Contact from 'components/contact';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -52,6 +53,7 @@ const Size = () => {
           </div>
         </Container>
       </div>
+      <Contact/>
     </main>
   );
 };

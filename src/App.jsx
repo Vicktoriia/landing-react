@@ -15,6 +15,7 @@ const Care = lazy(() => import('./page/care'));
 const Collection = lazy(() => import('./page/collection'));
 const Size = lazy(() => import('./page/size'));
 const Materials = lazy(() => import('./page/materials'));
+const About = lazy(() => import('./page/aboutPage'));
 
 export const App = () => {
   return (
@@ -24,6 +25,7 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/care" element={<Care />} />
+          <Route path="/aboutPage" element={<About/>} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/size" element={<Size />} />
           <Route path="/materials" element={<Materials />} />
