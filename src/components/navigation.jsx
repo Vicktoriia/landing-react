@@ -36,7 +36,7 @@ const Navigation = () => {
       >
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>
+            <Navbar.Brand onClick={() => setMenuExpanded(false)}>
               <img
                 alt=""
                 src={logo}
